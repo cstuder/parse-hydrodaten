@@ -1,0 +1,29 @@
+{
+  "name": "cstuder/parse-hydrodaten",
+  "description": "Parse Hydrodaten Open Data strings",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Christian Studer",
+      "email": "cstuder@existenz.ch"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "cstuder\\ParseHydrodaten\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "cstuder\\ParseHydrodaten\\": "tests/"
+    }
+  },
+  "require": {},
+  "require-dev": {
+    "phpunit/phpunit": "^9"
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit"
+  }
+}
