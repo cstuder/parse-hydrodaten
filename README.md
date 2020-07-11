@@ -14,9 +14,9 @@ Created for usage on [api.existenz.ch](https://api.existenz.ch) and indirectly o
 
 One of the data formats is an XML file with the current & yesterdays water temperature, flow amount and surface height.
 
-Not every stations measures every parameter. Not every stations reports its data at the same time.
+Not every stations measures every parameter. Not every parameter is imported. Not every stations reports its data at the same time.
 
-Periodicity: 10 minutes.
+Periodicity: 10 minutes. Timezone: Europe/Zurich.
 
 **Licencing restrictions apply by FOEN/BAFU.** See the Open Data download for information. FOEN/BAFU requires that all usage of the data always labels the FOEN/BAFU as source.
 
