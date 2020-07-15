@@ -14,7 +14,7 @@ Created for usage on [api.existenz.ch](https://api.existenz.ch) and indirectly o
 
 One of the data formats is an XML file with the current & yesterdays water temperature, flow amount and surface height.
 
-Not every stations measures every parameter. Not every parameter is imported. Not every stations reports its data at the same time.
+Not every stations measures every parameter. Not every stations reports its data at the same time.
 
 Periodicity: 10 minutes. Timezone: Europe/Zurich.
 

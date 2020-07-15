@@ -6,7 +6,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-$raw = file_get_contents(__DIR__ . '/../tests/resources/validLegacyData/hydroweb.xml');
+$raw = file_get_contents(__DIR__ . '/../tests/resources/validLegacyData/SMS.xml');
 
 $data = \cstuder\ParseHydrodaten\LegacyDataParser::parse($raw);
 
