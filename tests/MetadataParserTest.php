@@ -13,6 +13,6 @@ class MetadataParserTest extends TestCase
         $data = \cstuder\ParseHydrodaten\MetadataParser::parse($raw);
 
         $this->assertEquals(238, count($data->locations));
-        $this->assertEquals(4, count($data->parameters));
+        $this->assertEquals(5, count($data->parameters));
     }
 }
