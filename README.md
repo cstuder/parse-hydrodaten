@@ -31,6 +31,8 @@ XML file with [associated XSD schema](https://www.hydrodaten.admin.ch/lhg/az/xml
 
 Note that this parser is only interested in the absolute measurement values (Current and 24h old). It ignores max/min/mean values.
 
+The parse also ignores the `variant` attribute of the parameters.
+
 Both data and metadata is in the same XML. Encoding is UTF-8.
 
 ```xml

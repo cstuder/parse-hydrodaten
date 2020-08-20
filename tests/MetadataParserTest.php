@@ -7,5 +7,12 @@ use PHPUnit\Framework\TestCase;
  */
 class MetadataParserTest extends TestCase
 {
-    // TODO implement this
+    public function testParseMetadata()
+    {
+        $raw = file_get_contents(__DIR__ . '/resources/validData/hydroweb.xml');
+        $data = \cstuder\ParseHydrodaten\MetadataParser::parse($raw);
+
+        $this->assertEquals(238, count($data->locations));
+        $this->assertEquals(4, count($data->parameters));
+    }
 }
