@@ -14,5 +14,8 @@ class MetadataParserTest extends TestCase
 
         $this->assertEquals(238, count($data->locations));
         $this->assertEquals(5, count($data->parameters));
+
+        $this->assertContainsOnlyInstancesOf('StdClass', $data->locations);
+        $this->assertContainsOnlyInstancesOf('StdClass', $data->parameters);
     }
 }

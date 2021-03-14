@@ -20,10 +20,10 @@ class MetadataParser
         // Find locations
         foreach ($xml->station as $station) {
             $location = [
-                'id' => $station['number'],
-                'name' => $station['name'],
-                'water-body-name' => $station['water-body-name'],
-                'water-body-type' => $station['water-body-type'],
+                'id' => (int) $station['number'],
+                'name' => (string) $station['name'],
+                'water-body-name' => (string) $station['water-body-name'],
+                'water-body-type' => (string) $station['water-body-type'],
                 'chx' => intval($station['easting']),
                 'chy' => intval($station['northing']),
             ];

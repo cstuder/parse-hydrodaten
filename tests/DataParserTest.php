@@ -16,6 +16,8 @@ class DataParserTest extends TestCase
         $this->assertEquals(5, count($this->collectParameters($data)));
         $this->assertEquals(238, count($this->collectLocations($data)));
         $this->assertEquals(34, count($this->collectTimestamps($data)));
+
+        $this->assertContainsOnlyInstancesOf('StdClass', $data);
     }
 
 
@@ -28,6 +30,8 @@ class DataParserTest extends TestCase
         $this->assertEquals(5, count($this->collectParameters($data)));
         $this->assertEquals(238, count($this->collectLocations($data)));
         $this->assertEquals(34, count($this->collectTimestamps($data)));
+
+        $this->assertContainsOnlyInstancesOf('StdClass', $data);
     }
 
     public function testParseValue()
