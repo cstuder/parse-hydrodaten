@@ -1,6 +1,6 @@
 # parse-hydrodaten
 
-[![PHPUnit tests](https://github.com/cstuder/parse-hydrodaten/workflows/PHPUnit%20tests/badge.svg)](https://github.com/cstuder/parse-hydrodaten/actions?query=workflow%3A%22PHPUnit+tests%22)
+[![PHPUnit tests](https://github.com/cstuder/parse-hydrodaten/actions/workflows/phpunit.yml/badge.svg)](https://github.com/cstuder/parse-hydrodaten/actions/workflows/phpunit.yml)
 
 Simple PHP package to parse Hydrodaten (FOEN/BAFU) Open Data strings.
 
