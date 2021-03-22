@@ -22,10 +22,16 @@ Periodicity: 10 minutes. Timezone: Europe/Zurich.
 
 ### Getting the data
 
-1. Contact the [Abfragezentrale](abfragezentrale@bafu.admin.ch) and ask for access to the file `hydroweb.xml`.
-2. You should get a username and password for the endpoint <https://www.hydrodata.ch/data/xml/hydroweb.xml>.
+#### `hydroweb.xml`
 
-### Data format
+1. Download the data from <https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml>.
+
+#### Legacy format: `SMS.xml`
+
+1. Contact the [Abfragezentrale](abfragezentrale@bafu.admin.ch) and ask for access to the file `SMS.xml`.
+2. You should get a username and password for the endpoint <https://www.hydrodata.ch/data/xml/SMS.xml>.
+
+### Data format: `hydroweb.xml`
 
 XML file with [associated XSD schema](https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xsd) containing a list of river measurement stations and their different parameters.
 
@@ -58,6 +64,37 @@ Both data and metadata is in the same XML. Encoding is UTF-8.
 </locations>
 ```
 
+#### Legacy data format: `SMS.xml`
+
+XML file without schema containing a list of river measurement stations and their different parameters.
+
+Note that the legacy data parser is only interested in the absolute measurement values (Current and 24h old). It ignores max/min/mean values.
+
+The parse also ignores the `Var` attribute of the parameters.
+
+Both data is stored in this XML, no metadata. Encoding is UTF-8.
+
+```xml
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE AKT_Data SYSTEM "AKT_Data.dtd">
+<AKT_Data ID="SMS-Liste" ZeitSt="21.03.2021 18:25">
+
+  <MesPar DH="HBCHa" StrNr="2304" Typ="10" Var="10">
+  <Name>Ova dal Fuorn - Zernez, Punt la Drossa</Name>
+    <Datum>21.03.2021</Datum>
+    <Zeit>18:20</Zeit>
+    <Wert>0.51</Wert>
+    <Wert dt="-24h">0.51</Wert>
+    <Wert Typ="delta24">-0.003</Wert>
+    <Wert Typ="m24">0.51</Wert>
+    <Wert Typ="max24">0.52</Wert>
+    <Wert Typ="min24">0.50</Wert>
+  </MesPar>
+
+...
+</AKT_Data>
+```
+
 ## Installation
 
 `composer require cstuder/parse-hydrodaten`
@@ -69,8 +106,7 @@ Both data and metadata is in the same XML. Encoding is UTF-8.
 
 require('vendor/autoload.php');
 
-$context = stream_context_create(['http' => ['header' => 'Authorization: Basic ' . base64_encode("{$username}:{$password}")]]);
-$raw = file_get_contents('https://www.hydrodata.ch/data/xml/hydroweb.xml', NULL, $context);
+$raw = file_get_contents('https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml');
 
 $data = \cstuder\ParseHydrodaten\DataParser::parse($raw);
 
@@ -83,17 +119,25 @@ The parser is intentionally limited: It parses the given string and returns all 
 
 Values are converted to `float`. Missing values are not returned, the values will never be `null`.
 
+### `SuperParser::parse(string $raw)`
+
+Parses a Hydrodaten data string, tries out all available parsers one after another. If any of them finds anything, returns that data.
+
+Returns an empty array if no parsers find anything. Use at your own risk.
+
+Returns an array of StdClass objects with the keys `timestamp`, `loc`, `par`, `val`.
+
 ### `DataParser::parse(string $raw)`
 
 Parses a Hydroweb XML string.
 
-Returns an array of StdClass objects with the keys `timestamp`, `location`, `parameter`, `value`.
+Returns an array of StdClass objects with the keys `timestamp`, `loc`, `par`, `val`.
 
 ### `LegacyDataParser::parse(string $raw)`
 
 Parses a legacy Hydroweb XML string from the older `SMS.xml` file, found at <https://www.hydrodata.ch/data/xml/SMS.xml>
 
-Returns an array of StdClass objects with the keys `timestamp`, `location`, `parameter`, `value`.
+Returns an array of StdClass objects with the keys `timestamp`, `loc`, `par`, `val`.
 
 ### `MetadataParser::parse(string $raw)`
 
