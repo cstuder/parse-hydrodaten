@@ -22,6 +22,12 @@ Periodicity: 10 minutes. Timezone: Europe/Zurich.
 
 ### Getting the data
 
+Station data webpage: <https://www.hydrodaten.admin.ch>
+
+Station map on geo.admin.ch: <https://map.geo.admin.ch/?lang=en&topic=ech&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.bafu.hydrologie-wassertemperaturmessstationen>
+
+GeoJSON features: <https://data.geo.admin.ch/ch.bafu.hydroweb-messstationen_temperatur/ch.bafu.hydroweb-messstationen_temperatur_en.json>
+
 #### `hydroweb.xml`
 
 1. Download the data from <https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml>.
