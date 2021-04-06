@@ -34,6 +34,8 @@ GeoJSON features: <https://data.geo.admin.ch/ch.bafu.hydroweb-messstationen_temp
 
 #### Legacy format: `SMS.xml`
 
+_Deprecated:_ No longer available as of april 2021.
+
 1. Contact the [Abfragezentrale](abfragezentrale@bafu.admin.ch) and ask for access to the file `SMS.xml`.
 2. You should get a username and password for the endpoint <https://www.hydrodata.ch/data/xml/SMS.xml>.
 
