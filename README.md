@@ -36,7 +36,7 @@ GeoJSON features: <https://data.geo.admin.ch/ch.bafu.hydroweb-messstationen_temp
 
 _Deprecated:_ No longer available as of april 2021.
 
-1. Contact the [Abfragezentrale](abfragezentrale@bafu.admin.ch) and ask for access to the file `SMS.xml`.
+1. Contact the [Abfragezentrale](mailto:abfragezentrale@bafu.admin.ch) and ask for access to the file `SMS.xml`.
 2. You should get a username and password for the endpoint <https://www.hydrodata.ch/data/xml/SMS.xml>.
 
 ### Data format: `hydroweb.xml`
@@ -45,7 +45,7 @@ XML file with [associated XSD schema](https://www.hydrodaten.admin.ch/lhg/az/xml
 
 Note that this parser is only interested in the absolute measurement values (Current and 24h old). It ignores max/min/mean values.
 
-The parse also ignores the `variant` attribute of the parameters.
+The parser also ignores the `variant` attribute of the parameters.
 
 Both data and metadata is in the same XML. Encoding is UTF-8.
 
@@ -78,7 +78,7 @@ XML file without schema containing a list of river measurement stations and thei
 
 Note that the legacy data parser is only interested in the absolute measurement values (Current and 24h old). It ignores max/min/mean values.
 
-The parse also ignores the `Var` attribute of the parameters.
+The parser also ignores the `Var` attribute of the parameters.
 
 Both data is stored in this XML, no metadata. Encoding is UTF-8.
 
