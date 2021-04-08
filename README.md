@@ -28,9 +28,20 @@ Station map on geo.admin.ch: <https://map.geo.admin.ch/?lang=en&topic=ech&bgLaye
 
 GeoJSON features: <https://data.geo.admin.ch/ch.bafu.hydroweb-messstationen_temperatur/ch.bafu.hydroweb-messstationen_temperatur_en.json>
 
-#### `hydroweb.xml`
+#### `hydroweb.xml` (Rounded version)
+
+Data is available without password, but rounded values (I.e. temperature values to a tenth degree.)
 
 1. Download the data from <https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml>.
+
+#### `hydroweb.xml` (Precise version)
+
+**Note:** This library can not yet parse the precise `hydroweb.xml`.
+
+Data is password protected, but with precise values (I.e. temperature values to a thousandths degree.)
+
+1. Contact the [Abfragezentrale](mailto:abfragezentrale@bafu.admin.ch) and ask for access to the file `hydroweb.xml`.
+2. You should get a username and password for the endpoint <https://www.hydrodata.ch/data/xml/hydroweb.xml>.
 
 #### Legacy format: `SMS.xml`
 
