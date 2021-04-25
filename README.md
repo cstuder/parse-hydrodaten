@@ -12,13 +12,19 @@ Created for usage on [api.existenz.ch](https://api.existenz.ch) and indirectly o
 
 [FOEN/BAFU](https://www.bafu.admin.ch) (Swiss Federal Office for the Environment / Bundesamt für Umwelt der Schweiz) offers a selection of their [Hydrological data](https://www.hydrodaten.admin.ch) data on the [opendata.swiss portal](https://opendata.swiss/de/organization/bundesamt-fur-umwelt-bafu?keywords_de=gewasser).
 
-One of the data formats is an XML file with the current & yesterdays water temperature, flow amount and surface height.
-
 Not every stations measures every parameter. Not every stations reports its data at the same time.
 
 Periodicity: 10 minutes. Timezone: Europe/Zurich.
 
 **Licencing restrictions apply by FOEN/BAFU.** See the Open Data download for information. FOEN/BAFU requires that all usage of the data always labels the FOEN/BAFU as source.
+
+### Data files
+
+There are multiple ways to access the current measurement values. Currently these sources are available:
+
+| Filename | URL                             | Format | Password protected | Temperature precision | Parseable by `parse-hydroaten` | Comment |
+| -------- | ------------------------------- | ------ | ------------------ | --------------------- | ------------------------------ | ------- |
+| -        | https://www.hydrodaten.admin.ch | HTML   |                    | 0.1°                  |                                |         |
 
 ### Getting the data
 
