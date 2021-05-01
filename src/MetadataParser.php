@@ -15,35 +15,43 @@ class MetadataParser
 
         $xml = simplexml_load_string($raw);
 
-        $allParametersByType = [];
+        $allParametersByKey = [];
 
         // Find locations
         foreach ($xml->station as $station) {
             $location = [
-                'id' => (int) $station['number'],
-                'name' => (string) $station['name'],
-                'water-body-name' => (string) $station['water-body-name'],
-                'water-body-type' => (string) $station['water-body-type'],
+                'id' => trim((string) $station['number']),
+                'name' => trim((string) $station['name']),
+                'water-body-name' => trim((string) $station['water-body-name']),
+                'water-body-type' => trim((string) $station['water-body-type']),
                 'chx' => intval($station['easting']),
                 'chy' => intval($station['northing']),
             ];
 
             $metadata->locations[] = (object) $location;
 
-            // Gather all parameters by type
+            // Gather all parameters by key
             foreach ($station->parameter as $parameter) {
+                // `hydroweb2.xsd` stores the parameter identifier in the attribute `name`
+                $key = trim((string) $parameter['name']);
+
                 $thisParameter = [
-                    'type' => (int) $parameter['type'],
-                    'name' => (string) $parameter['name'],
-                    'unit' => (string) $parameter['unit'],
+                    'name' => trim((string) $parameter['name']),
+                    'unit' => trim((string) $parameter['unit']),
                 ];
 
-                $allParametersByType[$thisParameter['type']] = (object) $thisParameter;
+                // `hydroweb.xsd` stores the parameter identifier in the attribute `type`
+                if (isset($parameter['type'])) {
+                    $key = (int) $parameter['type'];
+                    $thisParameter['type'] = (int) $parameter['type'];
+                }
+
+                $allParametersByKey[$key] = (object) $thisParameter;
             }
         }
 
-        // Add parameters
-        $metadata->parameters = array_values($allParametersByType);
+        // Add unique parameters
+        $metadata->parameters = array_values($allParametersByKey);
 
         return $metadata;
     }

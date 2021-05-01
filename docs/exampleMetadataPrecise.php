@@ -8,6 +8,6 @@ require __DIR__ . '/../vendor/autoload.php';
 
 $raw = file_get_contents(__DIR__ . '/../tests/resources/validData/hydroweb_prec.xml');
 
-$data = \cstuder\ParseHydrodaten\DataParserPrecise::parse($raw);
+$metadata = \cstuder\ParseHydrodaten\MetadataParser::parse($raw);
 
-var_dump($data);
+var_dump($metadata);
