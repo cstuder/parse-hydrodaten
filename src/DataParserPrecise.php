@@ -3,11 +3,11 @@
 namespace cstuder\ParseHydrodaten;
 
 /**
- * Parser for Hydrodaten data strings in the `hydroweb.xsd` format
+ * Parser for Hydrodaten data strings in the `hydroweb2.xsd` format
  * 
- * @link https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xsd
+ * @link https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd
  */
-class DataParser
+class DataParserPrecise
 {
     /**
      * Timezone of the timestamps in the XML string
