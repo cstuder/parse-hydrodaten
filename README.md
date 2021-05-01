@@ -8,7 +8,53 @@ Simple PHP package to parse Hydrodaten (FOEN/BAFU) Open Data strings.
 
 Created for usage on [api.existenz.ch](https://api.existenz.ch) and indirectly on [Aare.guru](https://aare.guru). As of 2020 in productive use.
 
-## Hydrodaten
+## Installation
+
+`composer require cstuder/parse-hydrodaten`
+
+## Example usage
+
+```php
+<?php
+require('vendor/autoload.php');
+
+$raw = file_get_contents('https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml');
+
+$data = \cstuder\ParseHydrodaten\DataParser::parse($raw);
+
+var_dump($data);
+```
+
+The data is an array of StdClass objects:
+
+```php
+$data = [
+  (object) [
+    'timestamp' => 1619841168,
+    'loc' => '2135',
+    'par' => 'temperature',
+    'val' => 11.1
+  ],
+...
+];
+```
+
+### Metadata example usage
+
+For getting a list of locations and parameters, use the metadata parser:
+
+```php
+<?php
+require('vendor/autoload.php');
+
+$raw = file_get_contents('https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml');
+
+$metadata = \cstuder\ParseHydrodaten\MetadataParser::parse($raw);
+
+var_dump($metadata);
+```
+
+## About the Hydrodaten measurement network
 
 [FOEN/BAFU](https://www.bafu.admin.ch) (Swiss Federal Office for the Environment / Bundesamt für Umwelt der Schweiz) offers a selection of their [Hydrological data](https://www.hydrodaten.admin.ch) data on the [opendata.swiss portal](https://opendata.swiss/de/organization/bundesamt-fur-umwelt-bafu?keywords_de=gewasser).
 
@@ -18,9 +64,17 @@ Periodicity: 10 minutes. Timezone: Europe/Zurich.
 
 **Licencing restrictions apply by FOEN/BAFU.** See the Open Data download for information. FOEN/BAFU requires that all usage of the data always labels the FOEN/BAFU as source.
 
-### Data files
+### Additional links
 
-There are multiple ways to access the current measurement values. Currently these sources are available:
+- Official homepage: <https://www.hydrodaten.admin.ch>
+- [Station map on geo.admin.ch](https://map.geo.admin.ch/?lang=en&topic=ech&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.bafu.hydrologie-wassertemperaturmessstationen)
+- [GeoJSON features](https://data.geo.admin.ch/ch.bafu.hydroweb-messstationen_temperatur/ch.bafu.hydroweb-messstationen_temperatur_en.json)
+- Inofficial [Existenz data API](https://api.existenz.ch)
+- Existenz data API metadata: [locations](https://api-datasette.konzept.space/existenz-api/hydro_locations) and [parameters](https://api-datasette.konzept.space/existenz-api/hydro_parameters)
+
+## Data files overview
+
+There are multiple ways to access the current measurement values in different precisions and different formats. Some are password protected.
 
 | File                     | URL                                                                                    | Format                                                         | Password protected | Temperature precision | Parseable by `parse-hydroaten` | Comment                                                                                                                                                                                   |
 | ------------------------ | -------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------ | --------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -30,37 +84,9 @@ There are multiple ways to access the current measurement values. Currently thes
 | `hydroweb.naqua.xml`     | [www.hydrodata.ch](https://www.hydrodata.ch/data/xml/hydroweb.naqua.xml)               | [XML](http://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd) | Yes                | 0.01°                 | Yes                            | [NAQUA Groundwater Monitoring](https://www.bafu.admin.ch/bafu/en/home/topics/water/info-specialists/state-of-waterbodies/state-of-groundwater/naqua-national-groundwater-monitoring.html) |
 | `SMS.xml`                | -                                                                                      | XML                                                            |                    | 0.01°                 | Yes                            | No longer available                                                                                                                                                                       |
 
-### Getting the data
-
-Station data webpage: <https://www.hydrodaten.admin.ch>
-
-Station map on geo.admin.ch: <https://map.geo.admin.ch/?lang=en&topic=ech&bgLayer=ch.swisstopo.pixelkarte-farbe&layers=ch.bafu.hydrologie-wassertemperaturmessstationen>
-
-GeoJSON features: <https://data.geo.admin.ch/ch.bafu.hydroweb-messstationen_temperatur/ch.bafu.hydroweb-messstationen_temperatur_en.json>
-
-#### `hydroweb.xml` (Rounded version)
+## Data file: `hydroweb.xml` (Rounded)
 
 Data is available without password, but rounded values (I.e. temperature values to a tenth degree.)
-
-1. Download the data from <https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml>.
-
-#### `hydroweb.xml` (Precise version)
-
-**Note:** This library can not yet parse the precise `hydroweb.xml`.
-
-Data is password protected, but with precise values (I.e. temperature values to a thousandths degree.)
-
-1. Contact the [Abfragezentrale](mailto:abfragezentrale@bafu.admin.ch) and ask for access to the file `hydroweb.xml`.
-2. You should get a username and password for the endpoint <https://www.hydrodata.ch/data/xml/hydroweb.xml>.
-
-#### Legacy format: `SMS.xml`
-
-_Deprecated:_ No longer available as of april 2021.
-
-1. Contact the [Abfragezentrale](mailto:abfragezentrale@bafu.admin.ch) and ask for access to the file `SMS.xml`.
-2. You should get a username and password for the endpoint <https://www.hydrodata.ch/data/xml/SMS.xml>.
-
-### Data format: `hydroweb.xml`
 
 XML file with [associated XSD schema](https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xsd) containing a list of river measurement stations and their different parameters.
 
@@ -93,7 +119,94 @@ Both data and metadata is in the same XML. Encoding is UTF-8.
 </locations>
 ```
 
-#### Legacy data format: `SMS.xml`
+### Usage data parser
+
+1. Download the data from <https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml>.
+2. Parse it:
+
+```php
+<?php
+$raw = file_get_contents('https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml');
+
+$data = \cstuder\ParseHydrodaten\DataParser::parse($raw);
+```
+
+## Data file: `hydroweb.xml` (Precise version)
+
+Data is password protected, but with precise values (I.e. temperature values to a hundreth degree.)
+
+XML file with [associated XSD schema](https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd) containing a list of river measurement stations and their different parameters.
+
+Note that this parser is only interested in the absolute measurement values (Current and 24h old). It ignores max/min/mean values.
+
+The parser also ignores the `variant` attribute of the parameters.
+
+Both data and metadata is in the same XML. Encoding is UTF-8.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<locations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" export-time="2021-05-01T03:55:00+01:00" xsi:schemaLocation="http://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd">
+  <station name="Adelboden" easting="608710" northing="148300" number="2232" water-body-name="Allenbach" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2232_PegelRadarunten">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>1297.951</value>
+      <max-24h>1298.026</max-24h>
+      <mean-24h>1297.968</mean-24h>
+      <min-24h>1297.915</min-24h>
+    </parameter>
+    ...
+  </station>
+  ...
+</locations>
+```
+
+### Usage data parser precise
+
+1. Contact the [Abfragezentrale BAFU](mailto:abfragezentrale@bafu.admin.ch) and ask for access to the file `hydroweb.xml`.
+2. You should get a username and password for the endpoint <https://www.hydrodata.ch/data/xml/hydroweb.xml>.
+3. Parse it:
+
+```php
+<?php
+$context = stream_context_create(array (
+    'http' => array (
+        'header' => 'Authorization: Basic ' . base64_encode("$username:$password")
+    )
+));
+
+$raw = file_get_contents('https://www.hydrodata.ch/data/xml/hydroweb.xml', $context);
+
+$data = \cstuder\ParseHydrodaten\DataParserPrecise::parse($raw);
+```
+
+## Data file: `hydroweb.naqua.xml` (Precise version)
+
+[Groundwater measurement network](https://www.bafu.admin.ch/bafu/en/home/topics/water/info-specialists/state-of-waterbodies/state-of-groundwater/naqua-national-groundwater-monitoring.html), same data format as `hydroweb.xml` (Precise version). Data is password protected, but with precise values (I.e. temperature values to a hundreth degree.)
+
+### Usage data parser for NAQUA
+
+Uses the same data parser as `hydroweb.xml` (Precise version).
+
+1. Contact the [Abfragezentrale BAFU](mailto:abfragezentrale@bafu.admin.ch) and ask for access to the file `hydroweb.naqua.xml`.
+2. You should get a username and password for the endpoint <https://www.hydrodata.ch/data/xml/hydroweb.naqua.xml>.
+3. Parse it:
+
+```php
+<?php
+$context = stream_context_create(array (
+    'http' => array (
+        'header' => 'Authorization: Basic ' . base64_encode("$username:$password")
+    )
+));
+
+$raw = file_get_contents('https://www.hydrodata.ch/data/xml/hydroweb.naqua.xml', $context);
+
+$data = \cstuder\ParseHydrodaten\DataParserPrecise::parse($raw);
+```
+
+## Legacy format: `SMS.xml`
+
+**Deprecated:** No longer available as of april 2021.
 
 XML file without schema containing a list of river measurement stations and their different parameters.
 
@@ -124,25 +237,16 @@ Both data is stored in this XML, no metadata. Encoding is UTF-8.
 </AKT_Data>
 ```
 
-## Installation
-
-`composer require cstuder/parse-hydrodaten`
-
-## Example usage
+### Usage legacy parser
 
 ```php
 <?php
+$raw = file_get_contents('SMS.xml');
 
-require('vendor/autoload.php');
-
-$raw = file_get_contents('https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml');
-
-$data = \cstuder\ParseHydrodaten\DataParser::parse($raw);
-
-var_dump($data);
+$data = \cstuder\ParseHydrodaten\LegacyDataParser::parse($raw);
 ```
 
-## Methods
+## Parser Methods
 
 The parser is intentionally limited: It parses the given string and returns all absolute values which look valid. It silently skips over any value it doesn't understand.
 
@@ -158,13 +262,19 @@ Returns an array of StdClass objects with the keys `timestamp`, `loc`, `par`, `v
 
 ### `DataParser::parse(string $raw)`
 
-Parses a Hydroweb XML string.
+Parses a Hydroweb XML string in the [`hydroweb.xsd`](https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xsd) format.
+
+Returns an array of StdClass objects with the keys `timestamp`, `loc`, `par`, `val`.
+
+### `DataParserPrecise::parse(string $raw)`
+
+Parses a Hydroweb XML string in the [`hydroweb2.xsd`](https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd) format.
 
 Returns an array of StdClass objects with the keys `timestamp`, `loc`, `par`, `val`.
 
 ### `LegacyDataParser::parse(string $raw)`
 
-Parses a legacy Hydroweb XML string from the older `SMS.xml` file, found at <https://www.hydrodata.ch/data/xml/SMS.xml>
+Parses a legacy Hydroweb XML string in the deprecated `SMS.xml` format.
 
 Returns an array of StdClass objects with the keys `timestamp`, `loc`, `par`, `val`.
 
