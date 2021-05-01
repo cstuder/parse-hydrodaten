@@ -1,0 +1,3788 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" export-time="2021-05-01T04:05:00+01:00" xsi:schemaLocation="http://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd">
+  <station name="Adelboden" easting="608710" northing="148300" number="2232" water-body-name="Allenbach" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2232_PegelRadarunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1297.948</value>
+      <max-24h>1298.026</max-24h>
+      <mean-24h>1297.968</mean-24h>
+      <min-24h>1297.915</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2232_AbflussRadarunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">2.741</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">3.793</max-24h>
+      <mean-24h>3.002</mean-24h>
+      <min-24h>2.397</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2232_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">3.790</value>
+      <max-24h temperature-class="2">7.320</max-24h>
+      <mean-24h>4.520</mean-24h>
+      <min-24h>3.480</min-24h>
+    </parameter>
+  </station>
+  <station name="Agno" easting="714110" northing="95680" number="2629" water-body-name="Vedeggio" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2629_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>274.492</value>
+      <max-24h>274.544</max-24h>
+      <mean-24h>274.474</mean-24h>
+      <min-24h>274.431</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2629_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value quantile-class="3" warn-level-class="1">6.239</value>
+      <max-24h quantile-class="3" warn-level-class="1">8.212</max-24h>
+      <mean-24h>5.641</mean-24h>
+      <min-24h>4.224</min-24h>
+    </parameter>
+  </station>
+  <station name="Aigle" easting="563975" northing="129825" number="2203" water-body-name="Grande Eau" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2203_PegelRadarPontdelaFontaine">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>416.306</value>
+      <max-24h>416.348</max-24h>
+      <mean-24h>416.319</mean-24h>
+      <min-24h>416.302</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2203_AbflussRadarPontdelaFontaine">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">7.436</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">8.933</max-24h>
+      <mean-24h>7.881</mean-24h>
+      <min-24h>7.301</min-24h>
+    </parameter>
+  </station>
+  <station name="Allaman, Le Coulet" easting="520720" northing="147410" number="2433" water-body-name="Aubonne" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2433_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>390.094</value>
+      <max-24h>390.109</max-24h>
+      <mean-24h>390.015</mean-24h>
+      <min-24h>389.933</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2433_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>9.442</value>
+      <max-24h>9.841</max-24h>
+      <mean-24h>7.545</mean-24h>
+      <min-24h>5.686</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2433_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">7.600</value>
+      <max-24h temperature-class="2">8.300</max-24h>
+      <mean-24h>7.900</mean-24h>
+      <min-24h>7.600</min-24h>
+    </parameter>
+  </station>
+  <station name="Alpnach, Chilch Erli" easting="663800" northing="199570" number="2436" water-body-name="Chli Schliere" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2436_PegelRadarSchacht">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>452.705</value>
+      <max-24h>452.728</max-24h>
+      <mean-24h>452.684</mean-24h>
+      <min-24h>450.246</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2436_AbflussRadarSchacht">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.418</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">1.805</max-24h>
+      <mean-24h>1.261</mean-24h>
+      <min-24h>0.798</min-24h>
+    </parameter>
+  </station>
+  <station name="Andelfingen    " easting="693510" northing="272500" number="2044" water-body-name="Thur" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2044_PegelPneumatikunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>355.062</value>
+      <max-24h>355.080</max-24h>
+      <mean-24h>355.053</mean-24h>
+      <min-24h>355.019</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2044_AbflussPneumatikunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" temperature-class="8" warn-level-class="1">27.556</value>
+      <max-24h hq-class="1" quantile-class="2" temperature-class="8" warn-level-class="1">28.912</max-24h>
+      <mean-24h>26.940</mean-24h>
+      <min-24h>24.454</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2044_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.900</value>
+      <max-24h temperature-class="4">13.420</max-24h>
+      <mean-24h>12.040</mean-24h>
+      <min-24h>10.900</min-24h>
+    </parameter>
+  </station>
+  <station name="Andermatt" easting="688120" northing="166320" number="2087" water-body-name="Reuss" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2087_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">9.112</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">10.853</max-24h>
+      <mean-24h>9.275</mean-24h>
+      <min-24h>7.464</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2087_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1426.862</value>
+      <max-24h>1426.914</max-24h>
+      <mean-24h>1426.866</mean-24h>
+      <min-24h>1426.808</min-24h>
+    </parameter>
+  </station>
+  <station name="Appenzell" easting="749040" northing="244220" number="2112" water-body-name="Sitter" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2112_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>769.126</value>
+      <max-24h>769.194</max-24h>
+      <mean-24h>769.124</mean-24h>
+      <min-24h>769.058</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2112_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">3.304</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">4.173</max-24h>
+      <mean-24h>3.302</mean-24h>
+      <min-24h>2.532</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2112_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">6.500</value>
+      <max-24h temperature-class="3">11.300</max-24h>
+      <mean-24h>7.800</mean-24h>
+      <min-24h>5.900</min-24h>
+    </parameter>
+  </station>
+  <station name="Baden, Limmatpromenade" easting="665640" northing="258690" number="2243" water-body-name="Limmat" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2243_PegelRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>350.468</value>
+      <max-24h>350.549</max-24h>
+      <mean-24h>350.474</mean-24h>
+      <min-24h>350.429</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2243_AbflussRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" warn-level-class="1">73.251</value>
+      <max-24h hq-class="1" warn-level-class="1">82.687</max-24h>
+      <mean-24h>74.016</mean-24h>
+      <min-24h>68.979</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2243_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">11.700</value>
+      <max-24h temperature-class="3">11.900</max-24h>
+      <mean-24h>11.400</mean-24h>
+      <min-24h>10.900</min-24h>
+    </parameter>
+  </station>
+  <station name="Basel" easting="611800" northing="269700" number="2199" water-body-name="Wiese" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2199_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>246.653</value>
+      <max-24h>246.715</max-24h>
+      <mean-24h>246.641</mean-24h>
+      <min-24h>246.570</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2199_AbflussRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">6.785</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">8.907</max-24h>
+      <mean-24h>6.513</mean-24h>
+      <min-24h>4.382</min-24h>
+    </parameter>
+  </station>
+  <station name="Basel LHG" easting="611140" northing="267900" number="2615" water-body-name="Rhein" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2615_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>244.955</value>
+      <max-24h>244.976</max-24h>
+      <mean-24h>244.923</mean-24h>
+      <min-24h>244.849</min-24h>
+    </parameter>
+  </station>
+  <station name="Basel, Rheinhalle" easting="613400" northing="267650" number="2289" water-body-name="Rhein" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2289_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">812.801</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">831.200</max-24h>
+      <mean-24h>764.590</mean-24h>
+      <min-24h>696.970</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2289_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>245.482</value>
+      <max-24h>245.509</max-24h>
+      <mean-24h>245.412</mean-24h>
+      <min-24h>245.313</min-24h>
+    </parameter>
+  </station>
+  <station name="Bellinzona" easting="721245" northing="117025" number="9020" water-body-name="Ticino" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2020_AbflussRadarVega2400m">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>58.873</value>
+      <max-24h>109.028</max-24h>
+      <mean-24h>67.858</mean-24h>
+      <min-24h>42.112</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2020_PegelRadarVega2400m">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>227.395</value>
+      <max-24h>227.732</max-24h>
+      <mean-24h>227.453</mean-24h>
+      <min-24h>227.225</min-24h>
+    </parameter>
+  </station>
+  <station name="Belp, Mülimatt" easting="604810" northing="192680" number="2159" water-body-name="Gürbe" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2159_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">2.881</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">3.430</max-24h>
+      <mean-24h>2.790</mean-24h>
+      <min-24h>2.416</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2159_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>519.218</value>
+      <max-24h>519.246</max-24h>
+      <mean-24h>519.213</mean-24h>
+      <min-24h>519.192</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2159_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.400</value>
+      <max-24h temperature-class="3">9.900</max-24h>
+      <mean-24h>9.300</mean-24h>
+      <min-24h>8.400</min-24h>
+    </parameter>
+  </station>
+  <station name="Berlingen" easting="718570" northing="281730" number="2043" water-body-name="Bodensee, Untersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2043_PegelPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value warn-level-class="1">394.981</value>
+      <max-24h warn-level-class="1">394.981</max-24h>
+      <mean-24h>394.963</mean-24h>
+      <min-24h>394.949</min-24h>
+    </parameter>
+  </station>
+  <station name="Bern, Schönau" easting="600710" northing="198000" number="2135" water-body-name="Aare" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2135_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>502.418</value>
+      <max-24h>502.429</max-24h>
+      <mean-24h>502.371</mean-24h>
+      <min-24h>502.306</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2135_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">154.984</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">156.647</max-24h>
+      <mean-24h>148.069</mean-24h>
+      <min-24h>138.437</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2135_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.000</value>
+      <max-24h temperature-class="3">11.100</max-24h>
+      <mean-24h>10.700</mean-24h>
+      <min-24h>10.000</min-24h>
+    </parameter>
+  </station>
+  <station name="Biberbrugg" easting="697240" northing="223280" number="2604" water-body-name="Biber" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2604_PegelPneumatik6m">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>825.804</value>
+      <max-24h>825.816</max-24h>
+      <mean-24h>825.765</mean-24h>
+      <min-24h>825.738</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2604_AbflussPneumatik6m">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">0.491</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">0.534</max-24h>
+      <mean-24h>0.363</mean-24h>
+      <min-24h>0.283</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2604_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.100</value>
+      <max-24h temperature-class="4">12.400</max-24h>
+      <mean-24h>9.500</mean-24h>
+      <min-24h>8.100</min-24h>
+    </parameter>
+  </station>
+  <station name="Bignasco, Ponte nuovo" easting="690040" northing="132550" number="2475" water-body-name="Maggia" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2475_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.882</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.987</max-24h>
+      <mean-24h>1.630</mean-24h>
+      <min-24h>1.395</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2475_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>431.292</value>
+      <max-24h>431.302</max-24h>
+      <mean-24h>431.267</mean-24h>
+      <min-24h>431.243</min-24h>
+    </parameter>
+  </station>
+  <station name="Blatten" easting="629130" northing="140910" number="2269" water-body-name="Lonza" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2269_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">2.805</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.994</max-24h>
+      <mean-24h>2.637</mean-24h>
+      <min-24h>2.366</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2269_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1517.135</value>
+      <max-24h>1517.149</max-24h>
+      <mean-24h>1517.122</mean-24h>
+      <min-24h>1517.100</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2269_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">3.200</value>
+      <max-24h temperature-class="1">5.900</max-24h>
+      <mean-24h>4.200</mean-24h>
+      <min-24h>3.000</min-24h>
+    </parameter>
+  </station>
+  <station name="Blatten bei Naters" easting="643700" northing="137290" number="2161" water-body-name="Massa" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2161_AbflussRadarSteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">2.699</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">2.955</max-24h>
+      <mean-24h>2.679</mean-24h>
+      <min-24h>2.458</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2161_PegelRadarSteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1446.657</value>
+      <max-24h>1446.682</max-24h>
+      <mean-24h>1446.655</mean-24h>
+      <min-24h>1446.632</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2161_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">1.340</value>
+      <max-24h temperature-class="1">2.030</max-24h>
+      <mean-24h>1.590</mean-24h>
+      <min-24h>1.150</min-24h>
+    </parameter>
+  </station>
+  <station name="Boncourt, Frontière" easting="567830" northing="261200" number="2485" water-body-name="Allaine" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2485_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>364.428</value>
+      <max-24h>364.519</max-24h>
+      <mean-24h>364.437</mean-24h>
+      <min-24h>364.368</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2485_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">1.127</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.958</max-24h>
+      <mean-24h>1.226</mean-24h>
+      <min-24h>0.707</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2485_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.100</value>
+      <max-24h temperature-class="4">12.100</max-24h>
+      <mean-24h>11.100</mean-24h>
+      <min-24h>10.100</min-24h>
+    </parameter>
+  </station>
+  <station name="Boudry" easting="554350" northing="199940" number="2480" water-body-name="Areuse" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2480_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>443.511</value>
+      <max-24h>443.511</max-24h>
+      <mean-24h>443.450</mean-24h>
+      <min-24h>443.413</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2480_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">5.648</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">5.648</max-24h>
+      <mean-24h>3.923</mean-24h>
+      <min-24h>2.952</min-24h>
+    </parameter>
+  </station>
+  <station name="Branson" easting="573150" northing="108300" number="2024" water-body-name="Rhône" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2024_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">82.736</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">98.105</max-24h>
+      <mean-24h>86.406</mean-24h>
+      <min-24h>76.503</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2024_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>456.127</value>
+      <max-24h>456.282</max-24h>
+      <mean-24h>456.164</mean-24h>
+      <min-24h>456.061</min-24h>
+    </parameter>
+  </station>
+  <station name="Brienzwiler" easting="649930" northing="177380" number="2019" water-body-name="Aare" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2019_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">36.534</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">46.275</max-24h>
+      <mean-24h>33.757</mean-24h>
+      <min-24h>20.901</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2019_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>570.193</value>
+      <max-24h>570.387</max-24h>
+      <mean-24h>570.131</mean-24h>
+      <min-24h>569.833</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2019_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">4.800</value>
+      <max-24h temperature-class="2">7.500</max-24h>
+      <mean-24h>5.600</mean-24h>
+      <min-24h>4.400</min-24h>
+    </parameter>
+  </station>
+  <station name="Brig" easting="641340" northing="129700" number="2346" water-body-name="Rhône" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2346_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">17.221</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">29.506</max-24h>
+      <mean-24h>21.344</mean-24h>
+      <min-24h>16.701</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2346_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>665.631</value>
+      <max-24h>665.812</max-24h>
+      <mean-24h>665.696</mean-24h>
+      <min-24h>665.622</min-24h>
+    </parameter>
+  </station>
+  <station name="Brig" easting="642220" northing="129630" number="2342" water-body-name="Saltina" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2342_PegelDrucksonde">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>677.314</value>
+      <max-24h>677.328</max-24h>
+      <mean-24h>677.303</mean-24h>
+      <min-24h>677.279</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2342_AbflussDrucksonde">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">1.538</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.731</max-24h>
+      <mean-24h>1.409</mean-24h>
+      <min-24h>1.108</min-24h>
+    </parameter>
+  </station>
+  <station name="Brissago" easting="698350" northing="108200" number="2074" water-body-name="Lago Maggiore" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2074_PegelDrucksonde">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>192.665</value>
+      <max-24h>192.665</max-24h>
+      <mean-24h>192.644</mean-24h>
+      <min-24h>192.631</min-24h>
+    </parameter>
+  </station>
+  <station name="Broc, Château d'en bas" easting="573520" northing="161345" number="2160" water-body-name="Sarine" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2160_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>681.860</value>
+      <max-24h>682.087</max-24h>
+      <mean-24h>681.884</mean-24h>
+      <min-24h>681.770</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2160_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">31.631</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">47.589</max-24h>
+      <mean-24h>33.480</mean-24h>
+      <min-24h>26.144</min-24h>
+    </parameter>
+  </station>
+  <station name="Brugg" easting="657000" northing="259360" number="2016" water-body-name="Aare" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2016_PegelPneumatikunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>332.226</value>
+      <max-24h>332.452</max-24h>
+      <mean-24h>332.160</mean-24h>
+      <min-24h>331.897</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2016_AbflussPneumatikunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">255.140</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">285.085</max-24h>
+      <mean-24h>247.080</mean-24h>
+      <min-24h>214.253</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2016_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">11.170</value>
+      <max-24h temperature-class="3">11.260</max-24h>
+      <mean-24h>11.070</mean-24h>
+      <min-24h>10.830</min-24h>
+    </parameter>
+  </station>
+  <station name="Brunnen" easting="688625" northing="205370" number="2025" water-body-name="Vierwaldstättersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2025_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>433.513</value>
+      <max-24h>433.522</max-24h>
+      <mean-24h>433.510</mean-24h>
+      <min-24h>433.500</min-24h>
+    </parameter>
+  </station>
+  <station name="Brügg, Aegerten" easting="588220" northing="219020" number="2029" water-body-name="Aare" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2029_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>426.524</value>
+      <max-24h>426.547</max-24h>
+      <mean-24h>426.511</mean-24h>
+      <min-24h>426.429</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2029_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">182.014</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">187.592</max-24h>
+      <mean-24h>178.687</mean-24h>
+      <min-24h>158.252</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2029_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.900</value>
+      <max-24h temperature-class="3">11.600</max-24h>
+      <mean-24h>11.100</mean-24h>
+      <min-24h>10.700</min-24h>
+    </parameter>
+  </station>
+  <station name="Buch" easting="701590" northing="285825" number="4601" water-body-name="Biber" water-body-type="river" />
+  <station name="Buerglen, EW Altdorf" easting="693040" northing="192350" number="2492" water-body-name="Dorfbachableitung" water-body-type="river">
+    <parameter name="Abfluss l/s" unit="l/s" field-name="BAFU_2492_AbflussDorfbachableitung">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value quantile-class="5">771.000</value>
+      <max-24h quantile-class="5">773.000</max-24h>
+      <mean-24h>767.993</mean-24h>
+      <min-24h>642.000</min-24h>
+    </parameter>
+  </station>
+  <station name="Buochs, Flugplatz" easting="673555" northing="202870" number="2481" water-body-name="Engelberger Aa" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2481_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">11.740</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">21.155</max-24h>
+      <mean-24h>14.634</mean-24h>
+      <min-24h>8.542</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2481_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>443.028</value>
+      <max-24h>443.188</max-24h>
+      <mean-24h>443.079</mean-24h>
+      <min-24h>442.961</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2481_Wassertemperaturtief">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">6.460</value>
+      <max-24h temperature-class="2">8.670</max-24h>
+      <mean-24h>7.150</mean-24h>
+      <min-24h>6.140</min-24h>
+    </parameter>
+  </station>
+  <station name="Bürglen, Galgenwäldli" easting="692480" northing="191800" number="2491" water-body-name="Schächen" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2491_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value quantile-class="1">0.759</value>
+      <max-24h quantile-class="1">1.401</max-24h>
+      <mean-24h>0.833</mean-24h>
+      <min-24h>0.705</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2491_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>485.550</value>
+      <max-24h>485.612</max-24h>
+      <mean-24h>485.557</mean-24h>
+      <min-24h>485.544</min-24h>
+    </parameter>
+  </station>
+  <station name="Castrisch" easting="735330" northing="181790" number="2498" water-body-name="Glenner" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2498_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>693.678</value>
+      <max-24h>693.703</max-24h>
+      <mean-24h>693.676</mean-24h>
+      <min-24h>693.650</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2498_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">12.058</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">13.658</max-24h>
+      <mean-24h>11.979</mean-24h>
+      <min-24h>10.375</min-24h>
+    </parameter>
+  </station>
+  <station name="Chancy, Aux Ripes" easting="486600" northing="112340" number="2174" water-body-name="Rhône" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2174_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">248.571</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">316.243</max-24h>
+      <mean-24h>263.535</mean-24h>
+      <min-24h>173.181</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2174_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>334.289</value>
+      <max-24h>334.588</max-24h>
+      <mean-24h>334.349</mean-24h>
+      <min-24h>333.911</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2174_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.370</value>
+      <max-24h temperature-class="3">10.470</max-24h>
+      <mean-24h>10.120</mean-24h>
+      <min-24h>9.490</min-24h>
+    </parameter>
+  </station>
+  <station name="Chancy, Vers Vaux" easting="485440" northing="110040" number="2217" water-body-name="Rhône" water-body-type="river" />
+  <station name="Chiasso, Ponte di Polenta" easting="722315" northing="78320" number="2349" water-body-name="Breggia" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2349_PegelRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>250.767</value>
+      <max-24h>250.818</max-24h>
+      <mean-24h>250.776</mean-24h>
+      <min-24h>250.757</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2349_AbflussRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" warn-level-class="1">1.622</value>
+      <max-24h hq-class="1" warn-level-class="1">2.661</max-24h>
+      <mean-24h>1.801</mean-24h>
+      <min-24h>1.459</min-24h>
+    </parameter>
+  </station>
+  <station name="Chur" easting="757975" northing="191925" number="2185" water-body-name="Plessur" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2185_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>562.030</value>
+      <max-24h>562.072</max-24h>
+      <mean-24h>562.017</mean-24h>
+      <min-24h>561.949</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2185_AbflussRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value quantile-class="1">12.962</value>
+      <max-24h quantile-class="2">14.995</max-24h>
+      <mean-24h>12.421</mean-24h>
+      <min-24h>9.489</min-24h>
+    </parameter>
+  </station>
+  <station name="Cinuos - Chel" easting="797700" northing="168170" number="2403" water-body-name="Inn" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2403_PegelPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>1594.663</value>
+      <max-24h>1594.790</max-24h>
+      <mean-24h>1594.669</mean-24h>
+      <min-24h>1594.639</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2403_AbflussPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value quantile-class="3">1.971</value>
+      <max-24h quantile-class="4">3.748</max-24h>
+      <mean-24h>2.050</mean-24h>
+      <min-24h>1.689</min-24h>
+    </parameter>
+  </station>
+  <station name="Combe des Sarrasins" easting="557530" northing="227320" number="A270" water-body-name="Doubs" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2270_PegelCombedesSarrasins2370">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>540.715</value>
+      <max-24h>540.719</max-24h>
+      <mean-24h>540.716</mean-24h>
+      <min-24h>540.713</min-24h>
+    </parameter>
+  </station>
+  <station name="Dardagny, Les Granges" easting="488880" northing="119460" number="2490" water-body-name="Allondon" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2490_PegelDrucksonde">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>397.836</value>
+      <max-24h>397.856</max-24h>
+      <mean-24h>397.779</mean-24h>
+      <min-24h>397.697</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2490_AbflussDrucksonde">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">3.277</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">3.573</max-24h>
+      <mean-24h>2.569</mean-24h>
+      <min-24h>1.608</min-24h>
+    </parameter>
+  </station>
+  <station name="Davos, Frauenkirch" easting="779640" northing="181200" number="2355" water-body-name="Landwasser" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2355_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">5.205</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">6.425</max-24h>
+      <mean-24h>5.489</mean-24h>
+      <min-24h>4.810</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2355_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1486.897</value>
+      <max-24h>1486.947</max-24h>
+      <mean-24h>1486.909</mean-24h>
+      <min-24h>1486.879</min-24h>
+    </parameter>
+  </station>
+  <station name="Davos, Kriegsmatte" easting="786220" northing="183370" number="2327" water-body-name="Dischmabach" water-body-type="river">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2327_Wassertemperatur">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value temperature-class="1">2.700</value>
+      <max-24h temperature-class="2">6.300</max-24h>
+      <mean-24h>3.700</mean-24h>
+      <min-24h>2.400</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2327_PegelRadarSchacht">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>1668.279</value>
+      <max-24h>1668.330</max-24h>
+      <mean-24h>1668.267</mean-24h>
+      <min-24h>1668.212</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2327_AbflussRadarSchacht">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>1.653</value>
+      <max-24h>1.906</max-24h>
+      <mean-24h>1.621</mean-24h>
+      <min-24h>1.405</min-24h>
+    </parameter>
+  </station>
+  <station name="Delémont" easting="593380" northing="245940" number="2640" water-body-name="Sorne" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2640_AbflussRadarBrueckelinks">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>2.043</value>
+      <max-24h>2.400</max-24h>
+      <mean-24h>1.967</mean-24h>
+      <min-24h>1.571</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2640_AbflussRadarBrueckerechts">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>2.191</value>
+      <max-24h>2.601</max-24h>
+      <mean-24h>2.117</mean-24h>
+      <min-24h>1.668</min-24h>
+    </parameter>
+    <parameter name="Pegel m" unit="m" field-name="BAFU_2640_PegelRadarBrueckelinks">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>407.814</value>
+      <max-24h>407.839</max-24h>
+      <mean-24h>407.806</mean-24h>
+      <min-24h>407.769</min-24h>
+    </parameter>
+    <parameter name="Pegel m" unit="m" field-name="BAFU_2640_PegelRadarBrueckerechts">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>407.825</value>
+      <max-24h>407.851</max-24h>
+      <mean-24h>407.818</mean-24h>
+      <min-24h>407.780</min-24h>
+    </parameter>
+  </station>
+  <station name="Diepoldsau, Rietbrücke" easting="766280" northing="250360" number="2473" water-body-name="Rhein" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2473_PegelRadarFluss">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>408.432</value>
+      <max-24h>408.432</max-24h>
+      <mean-24h>408.266</mean-24h>
+      <min-24h>408.020</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2473_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.400</value>
+      <max-24h temperature-class="3">9.100</max-24h>
+      <mean-24h>8.600</mean-24h>
+      <min-24h>7.800</min-24h>
+    </parameter>
+  </station>
+  <station name="Ecublens, Eschiens" easting="552060" northing="161650" number="2437" water-body-name="Parimbot" water-body-type="river">
+    <parameter name="Abfluss l/s" unit="l/s" field-name="BAFU_2437_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="5">48.866</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="5">143.011</max-24h>
+      <mean-24h>66.758</mean-24h>
+      <min-24h>31.438</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2437_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>580.036</value>
+      <max-24h>580.142</max-24h>
+      <mean-24h>580.056</mean-24h>
+      <min-24h>580.003</min-24h>
+    </parameter>
+  </station>
+  <station name="Ecublens, Les Bois" easting="532040" northing="154160" number="2432" water-body-name="Venoge" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2432_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">2.220</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">3.788</max-24h>
+      <mean-24h>2.624</mean-24h>
+      <min-24h>1.636</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2432_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>382.619</value>
+      <max-24h>382.830</max-24h>
+      <mean-24h>382.672</mean-24h>
+      <min-24h>382.497</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2432_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.650</value>
+      <max-24h temperature-class="3">11.750</max-24h>
+      <mean-24h>11.230</mean-24h>
+      <min-24h>10.650</min-24h>
+    </parameter>
+  </station>
+  <station name="Eggiwil, Heidbüel" easting="627910" northing="191180" number="2409" water-body-name="Emme" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2409_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>742.017</value>
+      <max-24h>742.070</max-24h>
+      <mean-24h>741.974</mean-24h>
+      <min-24h>741.886</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2409_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="4" warn-level-class="1">10.079</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">12.696</max-24h>
+      <mean-24h>8.479</mean-24h>
+      <min-24h>5.279</min-24h>
+    </parameter>
+  </station>
+  <station name="Einsiedeln" easting="698640" northing="223020" number="2609" water-body-name="Alp" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2609_PegelPneumatik6m">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>840.433</value>
+      <max-24h>840.473</max-24h>
+      <mean-24h>840.420</mean-24h>
+      <min-24h>840.351</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2609_AbflussPneumatik6m">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">2.632</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">3.051</max-24h>
+      <mean-24h>2.509</mean-24h>
+      <min-24h>1.846</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2609_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">5.500</value>
+      <max-24h temperature-class="3">9.800</max-24h>
+      <mean-24h>7.100</mean-24h>
+      <min-24h>4.700</min-24h>
+    </parameter>
+  </station>
+  <station name="Einsiedeln, Gross" easting="700710" northing="218125" number="2635" water-body-name="Grossbach" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2635_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>934.316</value>
+      <max-24h>934.339</max-24h>
+      <mean-24h>934.318</mean-24h>
+      <min-24h>934.295</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2635_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">0.683</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">0.920</max-24h>
+      <mean-24h>0.711</mean-24h>
+      <min-24h>0.507</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2635_WassertemperaturKeller">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">4.990</value>
+      <max-24h temperature-class="3">10.800</max-24h>
+      <mean-24h>6.290</mean-24h>
+      <min-24h>4.470</min-24h>
+    </parameter>
+  </station>
+  <station name="Emmen" easting="663550" northing="213785" number="2634" water-body-name="Kleine Emme" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2634_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>434.306</value>
+      <max-24h>434.314</max-24h>
+      <mean-24h>434.221</mean-24h>
+      <min-24h>434.150</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2634_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">25.547</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">26.133</max-24h>
+      <mean-24h>19.795</mean-24h>
+      <min-24h>15.454</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2634_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">7.620</value>
+      <max-24h temperature-class="2">8.950</max-24h>
+      <mean-24h>8.110</mean-24h>
+      <min-24h>7.460</min-24h>
+    </parameter>
+  </station>
+  <station name="Emmenmatt" easting="623610" northing="200420" number="2070" water-body-name="Emme" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2070_PegelRadarrechts">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>638.633</value>
+      <max-24h>638.669</max-24h>
+      <mean-24h>638.585</mean-24h>
+      <min-24h>638.522</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2070_AbflussRadarrechts">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value quantile-class="3" warn-level-class="1">16.857</value>
+      <max-24h quantile-class="4" warn-level-class="1">19.446</max-24h>
+      <mean-24h>13.595</mean-24h>
+      <min-24h>9.420</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2070_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">6.500</value>
+      <max-24h temperature-class="2">8.400</max-24h>
+      <mean-24h>7.500</mean-24h>
+      <min-24h>6.100</min-24h>
+    </parameter>
+  </station>
+  <station name="Euthal, Rüti" easting="704425" northing="215310" number="2300" water-body-name="Minster" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2300_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>890.329</value>
+      <max-24h>890.420</max-24h>
+      <mean-24h>890.337</mean-24h>
+      <min-24h>890.253</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2300_AbflussRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">5.261</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">7.268</max-24h>
+      <mean-24h>5.468</mean-24h>
+      <min-24h>3.854</min-24h>
+    </parameter>
+  </station>
+  <station name="Felsenbach" easting="765365" northing="204910" number="2150" water-body-name="Landquart" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2150_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>570.715</value>
+      <max-24h>570.901</max-24h>
+      <mean-24h>570.770</mean-24h>
+      <min-24h>570.703</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2150_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">33.931</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">53.068</max-24h>
+      <mean-24h>39.441</mean-24h>
+      <min-24h>32.850</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2150_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">5.910</value>
+      <max-24h temperature-class="3">9.610</max-24h>
+      <mean-24h>6.980</mean-24h>
+      <min-24h>5.170</min-24h>
+    </parameter>
+  </station>
+  <station name="Frauenfeld" easting="709540" northing="269660" number="2386" water-body-name="Murg" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2386_AbflussPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.854</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.521</max-24h>
+      <mean-24h>1.174</mean-24h>
+      <min-24h>0.643</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2386_PegelPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>390.122</value>
+      <max-24h>390.156</max-24h>
+      <mean-24h>390.080</mean-24h>
+      <min-24h>390.045</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2386_Wassertemperatur">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value temperature-class="3">11.300</value>
+      <max-24h temperature-class="4">14.500</max-24h>
+      <mean-24h>12.500</mean-24h>
+      <min-24h>11.300</min-24h>
+    </parameter>
+  </station>
+  <station name="Frauenthal" easting="674715" northing="229845" number="2125" water-body-name="Lorze" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2125_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>390.522</value>
+      <max-24h>390.651</max-24h>
+      <mean-24h>390.546</mean-24h>
+      <min-24h>390.500</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2125_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">7.151</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">8.944</max-24h>
+      <mean-24h>7.472</mean-24h>
+      <min-24h>6.865</min-24h>
+    </parameter>
+  </station>
+  <station name="Fribourg" easting="579420" northing="183670" number="2119" water-body-name="Sarine" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2119_PegelRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>532.030</value>
+      <max-24h>532.623</max-24h>
+      <mean-24h>532.023</mean-24h>
+      <min-24h>531.833</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2119_AbflussRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" warn-level-class="1">16.164</value>
+      <max-24h hq-class="1" warn-level-class="1">77.874</max-24h>
+      <mean-24h>19.321</mean-24h>
+      <min-24h>5.801</min-24h>
+    </parameter>
+  </station>
+  <station name="Fürstenau" easting="753570" northing="175730" number="2387" water-body-name="Hinterrhein" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2387_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>650.505</value>
+      <max-24h>651.137</max-24h>
+      <mean-24h>650.676</mean-24h>
+      <min-24h>650.463</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2387_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">19.089</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">91.140</max-24h>
+      <mean-24h>36.377</mean-24h>
+      <min-24h>16.087</min-24h>
+    </parameter>
+  </station>
+  <station name="Gampelen, Zihlbrücke" easting="569250" northing="207860" number="2446" water-body-name="Zihlkanal" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2446_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>429.450</value>
+      <max-24h>429.473</max-24h>
+      <mean-24h>429.435</mean-24h>
+      <min-24h>429.398</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2446_AbflussAFFRA">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">-13.648</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">61.296</max-24h>
+      <mean-24h>9.922</mean-24h>
+      <min-24h>-33.952</min-24h>
+    </parameter>
+  </station>
+  <station name="Gelfingen" easting="662710" northing="229100" number="2137" water-body-name="Baldeggersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2137_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>463.030</value>
+      <max-24h>463.031</max-24h>
+      <mean-24h>463.025</mean-24h>
+      <min-24h>463.019</min-24h>
+    </parameter>
+  </station>
+  <station name="Genève, Bout du Monde" easting="501220" northing="115120" number="2170" water-body-name="Arve" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2170_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">94.448</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">113.180</max-24h>
+      <mean-24h>95.460</mean-24h>
+      <min-24h>81.050</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2170_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>379.801</value>
+      <max-24h>379.946</max-24h>
+      <mean-24h>379.808</mean-24h>
+      <min-24h>379.693</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2170_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.300</value>
+      <max-24h temperature-class="2">8.600</max-24h>
+      <mean-24h>8.200</mean-24h>
+      <min-24h>7.800</min-24h>
+    </parameter>
+  </station>
+  <station name="Genève, Halle de l'Île" easting="499890" northing="117850" number="2606" water-body-name="Rhône" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2606_AbflussRisoniclinksvorRollout">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1">135.819</value>
+      <max-24h hq-class="1">210.193</max-24h>
+      <mean-24h>158.346</mean-24h>
+      <min-24h>52.537</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2606_AbflussRisonicSumme">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1">146.008</value>
+      <max-24h hq-class="1">227.493</max-24h>
+      <mean-24h>171.643</mean-24h>
+      <min-24h>55.358</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2606_Wassertemperaturlinks">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.020</value>
+      <max-24h temperature-class="3">11.630</max-24h>
+      <mean-24h>10.850</mean-24h>
+      <min-24h>10.020</min-24h>
+    </parameter>
+  </station>
+  <station name="Genève, Sécheron" easting="500750" northing="119390" number="2028" water-body-name="Lac Léman" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2028_PegelPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>371.747</value>
+      <max-24h>371.759</max-24h>
+      <mean-24h>371.725</mean-24h>
+      <min-24h>371.689</min-24h>
+    </parameter>
+  </station>
+  <station name="Gerlafingen" easting="609270" northing="223300" number="2157" water-body-name="Strackbach" water-body-type="river" />
+  <station name="Gerlafingen" easting="608770" northing="223650" number="2156" water-body-name="Werkkanal" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2156_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value quantile-class="4">11.625</value>
+      <max-24h quantile-class="5">13.495</max-24h>
+      <mean-24h>11.721</mean-24h>
+      <min-24h>10.934</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2156_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>453.303</value>
+      <max-24h>453.379</max-24h>
+      <mean-24h>453.307</mean-24h>
+      <min-24h>453.274</min-24h>
+    </parameter>
+  </station>
+  <station name="Gland, Route Suisse" easting="510080" northing="140080" number="2493" water-body-name="Promenthouse" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2493_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.160</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.822</max-24h>
+      <mean-24h>1.536</mean-24h>
+      <min-24h>0.728</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2493_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>390.743</value>
+      <max-24h>390.883</max-24h>
+      <mean-24h>390.779</mean-24h>
+      <min-24h>390.684</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2493_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.800</value>
+      <max-24h temperature-class="3">9.800</max-24h>
+      <mean-24h>9.200</mean-24h>
+      <min-24h>8.600</min-24h>
+    </parameter>
+  </station>
+  <station name="Gletsch" easting="670810" northing="157200" number="2268" water-body-name="Rhône" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2268_PegelRadaroben">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1756.261</value>
+      <max-24h>1756.267</max-24h>
+      <mean-24h>1756.261</mean-24h>
+      <min-24h>1756.255</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2268_AbflussRadaroben">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">0.791</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">0.853</max-24h>
+      <mean-24h>0.792</mean-24h>
+      <min-24h>0.733</min-24h>
+    </parameter>
+  </station>
+  <station name="Goldach, Bleiche" easting="753190" northing="261600" number="2308" water-body-name="Goldach" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2308_PegelDrucksonde">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>399.534</value>
+      <max-24h>399.551</max-24h>
+      <mean-24h>399.494</mean-24h>
+      <min-24h>399.461</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2308_AbflussDrucksonde">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value quantile-class="3">0.609</value>
+      <max-24h quantile-class="4">0.692</max-24h>
+      <mean-24h>0.433</mean-24h>
+      <min-24h>0.301</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2308_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">9.800</value>
+      <max-24h temperature-class="5">16.200</max-24h>
+      <mean-24h>11.900</mean-24h>
+      <min-24h>9.300</min-24h>
+    </parameter>
+  </station>
+  <station name="Grandson" easting="539220" northing="184155" number="2154" water-body-name="Lac de Neuchâtel" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2154_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>429.459</value>
+      <max-24h>429.470</max-24h>
+      <mean-24h>429.448</mean-24h>
+      <min-24h>429.428</min-24h>
+    </parameter>
+  </station>
+  <station name="Greifensee" easting="693280" northing="246775" number="2082" water-body-name="Greifensee" water-body-type="lake" />
+  <station name="Gsteig" easting="633130" northing="168200" number="2109" water-body-name="Lütschine" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2109_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">24.015</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">25.220</max-24h>
+      <mean-24h>23.598</mean-24h>
+      <min-24h>21.900</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2109_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>585.470</value>
+      <max-24h>585.494</max-24h>
+      <mean-24h>585.461</mean-24h>
+      <min-24h>585.424</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2109_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">6.000</value>
+      <max-24h temperature-class="3">9.000</max-24h>
+      <mean-24h>7.000</mean-24h>
+      <min-24h>5.300</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2109_AbflussRadarVega2000m">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>19.196</value>
+      <max-24h>20.296</max-24h>
+      <mean-24h>18.902</mean-24h>
+      <min-24h>17.357</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2109_PegelRadarVega2000m">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>572.854</value>
+      <max-24h>572.880</max-24h>
+      <mean-24h>572.847</mean-24h>
+      <min-24h>572.809</min-24h>
+    </parameter>
+  </station>
+  <station name="Gümmenen" easting="585100" northing="199240" number="2467" water-body-name="Saane" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2467_PegelDrucksonde">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>470.764</value>
+      <max-24h>471.581</max-24h>
+      <mean-24h>470.849</mean-24h>
+      <min-24h>470.610</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2467_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.550</value>
+      <max-24h temperature-class="3">10.030</max-24h>
+      <mean-24h>9.140</mean-24h>
+      <min-24h>8.460</min-24h>
+    </parameter>
+  </station>
+  <station name="Hagneck" easting="580680" northing="211650" number="2085" water-body-name="Aare" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2085_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>437.815</value>
+      <max-24h>437.846</max-24h>
+      <mean-24h>437.819</mean-24h>
+      <min-24h>437.804</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2085_AbflussAFFRA">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">172.823</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">226.456</max-24h>
+      <mean-24h>174.937</mean-24h>
+      <min-24h>150.479</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2085_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.400</value>
+      <max-24h temperature-class="3">11.600</max-24h>
+      <mean-24h>11.100</mean-24h>
+      <min-24h>10.200</min-24h>
+    </parameter>
+  </station>
+  <station name="Halden" easting="733560" northing="263180" number="2181" water-body-name="Thur" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2181_PegelRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>455.896</value>
+      <max-24h>455.897</max-24h>
+      <mean-24h>455.819</mean-24h>
+      <min-24h>455.738</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2181_AbflussRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" warn-level-class="1">29.330</value>
+      <max-24h hq-class="1" warn-level-class="1">29.407</max-24h>
+      <mean-24h>23.765</mean-24h>
+      <min-24h>18.363</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2181_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.000</value>
+      <max-24h temperature-class="4">12.300</max-24h>
+      <mean-24h>10.800</mean-24h>
+      <min-24h>9.600</min-24h>
+    </parameter>
+  </station>
+  <station name="Herisau, Zellersmühle" easting="737270" northing="251290" number="2305" water-body-name="Glatt" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2305_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">0.269</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">0.672</max-24h>
+      <mean-24h>0.281</mean-24h>
+      <min-24h>0.110</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2305_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>677.775</value>
+      <max-24h>677.885</max-24h>
+      <mean-24h>677.773</mean-24h>
+      <min-24h>677.706</min-24h>
+    </parameter>
+  </station>
+  <station name="Hinterrhein, Schiessplatz" easting="733706" northing="153945" number="2631" water-body-name="Hinterrhein" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2631_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value quantile-class="3" warn-level-class="1">2.419</value>
+      <max-24h quantile-class="3" warn-level-class="1">2.467</max-24h>
+      <mean-24h>1.935</mean-24h>
+      <min-24h>1.313</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2631_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1612.720</value>
+      <max-24h>1612.722</max-24h>
+      <mean-24h>1612.696</mean-24h>
+      <min-24h>1612.663</min-24h>
+    </parameter>
+  </station>
+  <station name="Hitzkirch, Richensee" easting="661390" northing="230220" number="2416" water-body-name="Aabach" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2416_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>462.947</value>
+      <max-24h>462.948</max-24h>
+      <mean-24h>462.942</mean-24h>
+      <min-24h>462.936</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2416_AbflussRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.074</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.077</max-24h>
+      <mean-24h>1.058</mean-24h>
+      <min-24h>1.039</min-24h>
+    </parameter>
+  </station>
+  <station name="Hondrich" easting="617790" northing="168400" number="2469" water-body-name="Kander" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2469_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">24.835</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">28.239</max-24h>
+      <mean-24h>24.681</mean-24h>
+      <min-24h>22.159</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2469_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>646.616</value>
+      <max-24h>646.653</max-24h>
+      <mean-24h>646.614</mean-24h>
+      <min-24h>646.585</min-24h>
+    </parameter>
+  </station>
+  <station name="Huttwil, Häberenbad" easting="629560" northing="219135" number="2343" water-body-name="Langeten" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2343_PegelRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>596.986</value>
+      <max-24h>597.084</max-24h>
+      <mean-24h>596.998</mean-24h>
+      <min-24h>596.967</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2343_AbflussRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" warn-level-class="1">0.794</value>
+      <max-24h hq-class="1" warn-level-class="1">1.812</max-24h>
+      <mean-24h>0.917</mean-24h>
+      <min-24h>0.652</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2343_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.600</value>
+      <max-24h temperature-class="3">10.200</max-24h>
+      <mean-24h>9.500</mean-24h>
+      <min-24h>8.600</min-24h>
+    </parameter>
+  </station>
+  <station name="Ilanz" easting="735000" northing="182030" number="2033" water-body-name="Vorderrhein" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2033_AbflussPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">51.182</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">59.133</max-24h>
+      <mean-24h>41.646</mean-24h>
+      <min-24h>28.026</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2033_PegelPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>691.377</value>
+      <max-24h>691.449</max-24h>
+      <mean-24h>691.279</mean-24h>
+      <min-24h>691.123</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2033_Wassertemperatur1">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value temperature-class="1">5.720</value>
+      <max-24h temperature-class="2">6.800</max-24h>
+      <mean-24h>6.020</mean-24h>
+      <min-24h>5.000</min-24h>
+    </parameter>
+  </station>
+  <station name="Ingenbohl" easting="688230" northing="206140" number="2084" water-body-name="Muota" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2084_PegelPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>435.143</value>
+      <max-24h>435.410</max-24h>
+      <mean-24h>435.317</mean-24h>
+      <min-24h>435.142</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2084_AbflussPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">17.679</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">29.956</max-24h>
+      <mean-24h>25.506</mean-24h>
+      <min-24h>17.638</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2084_Wassertemperatur">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value temperature-class="2">6.700</value>
+      <max-24h temperature-class="2">8.400</max-24h>
+      <mean-24h>7.300</mean-24h>
+      <min-24h>6.500</min-24h>
+    </parameter>
+  </station>
+  <station name="Isenthal" easting="685500" northing="196050" number="2276" water-body-name="Grosstalbach" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2276_PegelSchwimmer">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>767.798</value>
+      <max-24h>767.808</max-24h>
+      <mean-24h>767.793</mean-24h>
+      <min-24h>767.774</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2276_AbflussSchwimmer">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">2.387</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.459</max-24h>
+      <mean-24h>2.352</mean-24h>
+      <min-24h>2.226</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2276_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">6.170</value>
+      <max-24h temperature-class="2">8.860</max-24h>
+      <mean-24h>6.830</mean-24h>
+      <min-24h>5.750</min-24h>
+    </parameter>
+  </station>
+  <station name="Ittigen" easting="603005" northing="202455" number="2500" water-body-name="Worble" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2500_PegelPneumatik6m">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>517.877</value>
+      <max-24h>517.987</max-24h>
+      <mean-24h>517.899</mean-24h>
+      <min-24h>517.851</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2500_AbflussPneumatik6m">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">0.736</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">1.387</max-24h>
+      <mean-24h>0.863</mean-24h>
+      <min-24h>0.634</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2500_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.010</value>
+      <max-24h temperature-class="3">11.440</max-24h>
+      <mean-24h>10.810</mean-24h>
+      <min-24h>10.010</min-24h>
+    </parameter>
+  </station>
+  <station name="Jonschwil, Mühlau" easting="723675" northing="252720" number="2303" water-body-name="Thur" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2303_PegelPneumatikunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>533.262</value>
+      <max-24h>533.276</max-24h>
+      <mean-24h>533.222</mean-24h>
+      <min-24h>533.154</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2303_AbflussPneumatikunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">19.550</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">20.360</max-24h>
+      <mean-24h>17.388</mean-24h>
+      <min-24h>13.936</min-24h>
+    </parameter>
+  </station>
+  <station name="Klingnau" easting="659150" northing="271790" number="2113" water-body-name="Aare" water-body-type="river">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2113_Wassertemperatur">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value temperature-class="4">12.400</value>
+      <max-24h temperature-class="4">12.400</max-24h>
+      <mean-24h>12.200</mean-24h>
+      <min-24h>12.000</min-24h>
+    </parameter>
+  </station>
+  <station name="Klusmatten" easting="644500" northing="119420" number="2244" water-body-name="Krummbach" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2244_AbflussPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">1.218</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.638</max-24h>
+      <mean-24h>1.282</mean-24h>
+      <min-24h>0.869</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2244_PegelPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>1791.430</value>
+      <max-24h>1791.504</max-24h>
+      <mean-24h>1791.437</mean-24h>
+      <min-24h>1791.352</min-24h>
+    </parameter>
+  </station>
+  <station name="Koblenz" easting="659830" northing="273450" number="2116" water-body-name="Rhein" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2116_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>311.773</value>
+      <max-24h>311.773</max-24h>
+      <mean-24h>311.724</mean-24h>
+      <min-24h>311.673</min-24h>
+    </parameter>
+  </station>
+  <station name="La Punt-Chamues-ch" easting="791430" northing="160600" number="2263" water-body-name="Chamuerabach" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2263_PegelDrucksondeSchacht">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>1718.895</value>
+      <max-24h>1718.925</max-24h>
+      <mean-24h>1718.885</mean-24h>
+      <min-24h>1718.847</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2263_AbflussDrucksondeSchacht">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.841</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.113</max-24h>
+      <mean-24h>1.791</mean-24h>
+      <min-24h>1.534</min-24h>
+    </parameter>
+  </station>
+  <station name="La Rösa" easting="802120" northing="142010" number="2366" water-body-name="Poschiavino" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2366_PegelDrucksondeSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1860.638</value>
+      <max-24h>1860.653</max-24h>
+      <mean-24h>1860.643</mean-24h>
+      <min-24h>1860.631</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2366_AbflussDrucksondeSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">0.828</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">0.917</max-24h>
+      <mean-24h>0.856</mean-24h>
+      <min-24h>0.788</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2366_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">2.500</value>
+      <max-24h temperature-class="1">3.400</max-24h>
+      <mean-24h>2.700</mean-24h>
+      <min-24h>2.100</min-24h>
+    </parameter>
+  </station>
+  <station name="Langnau" easting="627320" northing="198600" number="2603" water-body-name="Ilfis" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2603_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">5.354</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">6.889</max-24h>
+      <mean-24h>4.765</mean-24h>
+      <min-24h>3.693</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2603_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>683.053</value>
+      <max-24h>683.091</max-24h>
+      <mean-24h>683.036</mean-24h>
+      <min-24h>683.005</min-24h>
+    </parameter>
+  </station>
+  <station name="Latterbach" easting="610680" northing="167840" number="2488" water-body-name="Simme" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2488_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value quantile-class="2">4.005</value>
+      <max-24h quantile-class="2">6.606</max-24h>
+      <mean-24h>4.492</mean-24h>
+      <min-24h>2.997</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2488_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>662.943</value>
+      <max-24h>663.045</max-24h>
+      <mean-24h>662.958</mean-24h>
+      <min-24h>662.880</min-24h>
+    </parameter>
+  </station>
+  <station name="Lauerz, Chlostermatt" easting="688020" northing="209530" number="2484" water-body-name="Lauerzersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2484_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>447.005</value>
+      <max-24h>447.006</max-24h>
+      <mean-24h>447.001</mean-24h>
+      <min-24h>446.996</min-24h>
+    </parameter>
+  </station>
+  <station name="Laufenburg" easting="646000" northing="267410" number="2130" water-body-name="Rhein (Oberwasser)" water-body-type="river">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2130_Wassertemperatur1">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value temperature-class="3">11.230</value>
+      <max-24h temperature-class="4">12.400</max-24h>
+      <mean-24h>11.780</mean-24h>
+      <min-24h>11.060</min-24h>
+    </parameter>
+  </station>
+  <station name="Laupen" easting="584440" northing="195300" number="2215" water-body-name="Saane" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2215_PegelPneumatiklinks">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>480.822</value>
+      <max-24h>481.757</max-24h>
+      <mean-24h>480.926</mean-24h>
+      <min-24h>480.648</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2215_AbflussPneumatiklinks">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">22.778</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">114.305</max-24h>
+      <mean-24h>33.354</mean-24h>
+      <min-24h>13.587</min-24h>
+    </parameter>
+  </station>
+  <station name="Lavertezzo" easting="708060" northing="123950" number="2612" water-body-name="Riale di Pincascia" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2612_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="4" warn-level-class="1">14.365</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">14.655</max-24h>
+      <mean-24h>11.120</mean-24h>
+      <min-24h>5.404</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2612_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>528.700</value>
+      <max-24h>528.707</max-24h>
+      <mean-24h>528.613</mean-24h>
+      <min-24h>528.448</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2612_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">6.100</value>
+      <max-24h temperature-class="2">6.800</max-24h>
+      <mean-24h>6.300</mean-24h>
+      <min-24h>5.800</min-24h>
+    </parameter>
+  </station>
+  <station name="Lavertezzo, Campiöi" easting="708420" northing="122920" number="2605" water-body-name="Verzasca" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2605_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="4" warn-level-class="1">39.525</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">39.525</max-24h>
+      <mean-24h>27.452</mean-24h>
+      <min-24h>18.009</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2605_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>490.680</value>
+      <max-24h>490.680</max-24h>
+      <mean-24h>490.322</mean-24h>
+      <min-24h>489.976</min-24h>
+    </parameter>
+  </station>
+  <station name="Le Chenit, Frontière" easting="501445" northing="156305" number="2371" water-body-name="Orbe" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2371_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">0.440</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">0.522</max-24h>
+      <mean-24h>0.368</mean-24h>
+      <min-24h>0.165</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2371_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1039.589</value>
+      <max-24h>1039.609</max-24h>
+      <mean-24h>1039.563</mean-24h>
+      <min-24h>1039.491</min-24h>
+    </parameter>
+  </station>
+  <station name="Le Châble, Villette" easting="582550" northing="103270" number="2117" water-body-name="Drance de Bagnes" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2117_PegelRadarMesssteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>809.935</value>
+      <max-24h>810.008</max-24h>
+      <mean-24h>809.975</mean-24h>
+      <min-24h>809.919</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2117_AbflussRadarMesssteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">3.826</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">4.795</max-24h>
+      <mean-24h>4.344</mean-24h>
+      <min-24h>3.632</min-24h>
+    </parameter>
+  </station>
+  <station name="Le Noirmont, La Goule" easting="561430" northing="231050" number="2370" water-body-name="Doubs" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2370_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">7.418</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">7.418</max-24h>
+      <mean-24h>7.332</mean-24h>
+      <min-24h>7.255</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2370_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>507.336</value>
+      <max-24h>507.336</max-24h>
+      <mean-24h>507.333</mean-24h>
+      <min-24h>507.330</min-24h>
+    </parameter>
+  </station>
+  <station name="Le Pont" easting="514700" northing="168840" number="2007" water-body-name="Lac de Joux" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2007_PegelKeller">
+      <datetime>2021-05-01T00:00:00+01:00</datetime>
+      <value>1004.257</value>
+      <max-24h>1004.265</max-24h>
+      <mean-24h>1004.252</mean-24h>
+      <min-24h>1004.239</min-24h>
+    </parameter>
+  </station>
+  <station name="Le Prese" easting="803490" northing="130530" number="2078" water-body-name="Poschiavino" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2078_PegelDrucksondeSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>966.975</value>
+      <max-24h>967.118</max-24h>
+      <mean-24h>967.025</mean-24h>
+      <min-24h>966.964</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2078_AbflussDrucksondeSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value quantile-class="1">4.876</value>
+      <max-24h quantile-class="3">8.331</max-24h>
+      <mean-24h>6.025</mean-24h>
+      <min-24h>4.639</min-24h>
+    </parameter>
+  </station>
+  <station name="Les Brenets" easting="544690" northing="215083" number="2247" water-body-name="Doubs" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2247_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>749.549</value>
+      <max-24h>749.549</max-24h>
+      <mean-24h>749.473</mean-24h>
+      <min-24h>749.427</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2247_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="1" warn-level-class="1">2.775</value>
+      <max-24h hq-class="1" quantile-class="1" warn-level-class="1">2.775</max-24h>
+      <mean-24h>2.726</mean-24h>
+      <min-24h>2.697</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2057_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>749.549</value>
+      <max-24h>749.549</max-24h>
+      <mean-24h>749.473</mean-24h>
+      <min-24h>749.427</min-24h>
+    </parameter>
+  </station>
+  <station name="Liestal" easting="622270" northing="259750" number="2202" water-body-name="Ergolz" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2202_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.494</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">3.347</max-24h>
+      <mean-24h>1.676</mean-24h>
+      <min-24h>0.737</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2202_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>304.585</value>
+      <max-24h>304.732</max-24h>
+      <mean-24h>304.588</mean-24h>
+      <min-24h>304.470</min-24h>
+    </parameter>
+  </station>
+  <station name="Ligerz, Klein Twann" easting="578320" northing="215670" number="2208" water-body-name="Bielersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2208_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">429.432</value>
+      <max-24h warn-level-class="1">429.448</max-24h>
+      <mean-24h>429.430</mean-24h>
+      <min-24h>429.409</min-24h>
+    </parameter>
+  </station>
+  <station name="Linthal, Wasserrückgabe KLL" easting="718360" northing="197409" number="2353" water-body-name="Betriebswasser KLL" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2353_PegelSchwimmer">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>667.353</value>
+      <max-24h>668.468</max-24h>
+      <mean-24h>667.872</mean-24h>
+      <min-24h>667.353</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2353_AbflussSchwimmer">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value quantile-class="1">0.439</value>
+      <max-24h quantile-class="4">20.139</max-24h>
+      <mean-24h>7.825</mean-24h>
+      <min-24h>0.439</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2352_AbflussRadarStegUfer">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value quantile-class="3">6.390</value>
+      <max-24h quantile-class="3">6.390</max-24h>
+      <mean-24h>4.870</mean-24h>
+      <min-24h>3.761</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2352_PegelRadarStegUfer">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>668.752</value>
+      <max-24h>668.752</max-24h>
+      <mean-24h>668.691</mean-24h>
+      <min-24h>668.641</min-24h>
+    </parameter>
+  </station>
+  <station name="Locarno" easting="705480" northing="113380" number="2022" water-body-name="Lago Maggiore" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2022_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">192.666</value>
+      <max-24h warn-level-class="1">192.666</max-24h>
+      <mean-24h>192.646</mean-24h>
+      <min-24h>192.626</min-24h>
+    </parameter>
+  </station>
+  <station name="Locarno, Solduno" easting="703100" northing="113860" number="2368" water-body-name="Maggia" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2368_PegelPneumatikoben">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>200.292</value>
+      <max-24h>200.292</max-24h>
+      <mean-24h>200.205</mean-24h>
+      <min-24h>200.153</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2368_AbflussPneumatikoben">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">22.302</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">22.302</max-24h>
+      <mean-24h>16.627</mean-24h>
+      <min-24h>13.677</min-24h>
+    </parameter>
+  </station>
+  <station name="Loderio" easting="717770" northing="137270" number="2086" water-body-name="Brenno" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2086_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">3.937</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">3.937</max-24h>
+      <mean-24h>3.370</mean-24h>
+      <min-24h>3.010</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2086_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>344.077</value>
+      <max-24h>344.077</max-24h>
+      <mean-24h>344.046</mean-24h>
+      <min-24h>344.026</min-24h>
+    </parameter>
+  </station>
+  <station name="Lumino, Sassello" easting="724765" northing="120360" number="2420" water-body-name="Moesa" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2420_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">27.175</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">35.026</max-24h>
+      <mean-24h>27.097</mean-24h>
+      <min-24h>14.435</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2420_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>239.976</value>
+      <max-24h>240.079</max-24h>
+      <mean-24h>239.970</mean-24h>
+      <min-24h>239.771</min-24h>
+    </parameter>
+  </station>
+  <station name="Luzern" easting="666950" northing="211915" number="2207" water-body-name="Vierwaldstättersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2207_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">433.512</value>
+      <max-24h warn-level-class="1">433.523</max-24h>
+      <mean-24h>433.502</mean-24h>
+      <min-24h>433.479</min-24h>
+    </parameter>
+  </station>
+  <station name="Luzern, Geissmattbrücke" easting="665330" northing="211800" number="2152" water-body-name="Reuss" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2152_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>431.556</value>
+      <max-24h>431.650</max-24h>
+      <mean-24h>431.550</mean-24h>
+      <min-24h>431.505</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2152_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">106.156</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">116.595</max-24h>
+      <mean-24h>105.458</mean-24h>
+      <min-24h>100.577</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2152_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.600</value>
+      <max-24h temperature-class="3">11.800</max-24h>
+      <mean-24h>10.700</mean-24h>
+      <min-24h>8.600</min-24h>
+    </parameter>
+  </station>
+  <station name="Magliaso, Ponte" easting="711620" northing="93290" number="2461" water-body-name="Magliasina" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2461_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.804</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.271</max-24h>
+      <mean-24h>1.492</mean-24h>
+      <min-24h>0.990</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2461_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>295.701</value>
+      <max-24h>295.755</max-24h>
+      <mean-24h>295.658</mean-24h>
+      <min-24h>295.589</min-24h>
+    </parameter>
+  </station>
+  <station name="Martigny, Pont de Rossettan" easting="570930" northing="105200" number="2053" water-body-name="Drance" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2053_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">9.340</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">12.751</max-24h>
+      <mean-24h>9.941</mean-24h>
+      <min-24h>8.855</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2053_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>478.085</value>
+      <max-24h>478.164</max-24h>
+      <mean-24h>478.099</mean-24h>
+      <min-24h>478.073</min-24h>
+    </parameter>
+  </station>
+  <station name="Martina" easting="830640" northing="197190" number="2067" water-body-name="Inn" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2067_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">29.969</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">82.478</max-24h>
+      <mean-24h>53.365</mean-24h>
+      <min-24h>8.278</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2067_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1029.257</value>
+      <max-24h>1029.953</max-24h>
+      <mean-24h>1029.584</mean-24h>
+      <min-24h>1028.733</min-24h>
+    </parameter>
+  </station>
+  <station name="Meisterschwanden" easting="659125" northing="238615" number="2097" water-body-name="Hallwilersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2097_PegelRadar">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>448.716</value>
+      <max-24h>448.719</max-24h>
+      <mean-24h>448.711</mean-24h>
+      <min-24h>448.701</min-24h>
+    </parameter>
+  </station>
+  <station name="Melera, (Valle Morobbia)" easting="726988" northing="114670" number="2206" water-body-name="Melera" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2206_PegelRadarVega65m">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>958.418</value>
+      <max-24h>958.429</max-24h>
+      <mean-24h>958.414</mean-24h>
+      <min-24h>958.405</min-24h>
+    </parameter>
+    <parameter name="Abfluss l/s" unit="l/s" field-name="BAFU_2206_AbflussRadarVega65mls">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>30.000</value>
+      <max-24h>34.000</max-24h>
+      <mean-24h>28.559</mean-24h>
+      <min-24h>25.000</min-24h>
+    </parameter>
+  </station>
+  <station name="Melide, Ferrera" easting="717070" northing="91650" number="2101" water-body-name="Lago di Lugano" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2101_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">270.210</value>
+      <max-24h warn-level-class="1">270.211</max-24h>
+      <mean-24h>270.188</mean-24h>
+      <min-24h>270.169</min-24h>
+    </parameter>
+  </station>
+  <station name="Mellingen" easting="662830" northing="252580" number="2018" water-body-name="Reuss" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2018_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">151.281</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">152.946</max-24h>
+      <mean-24h>144.880</mean-24h>
+      <min-24h>140.281</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2018_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>344.548</value>
+      <max-24h>344.558</max-24h>
+      <mean-24h>344.509</mean-24h>
+      <min-24h>344.481</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2018_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">11.080</value>
+      <max-24h temperature-class="3">11.630</max-24h>
+      <mean-24h>11.180</mean-24h>
+      <min-24h>10.580</min-24h>
+    </parameter>
+  </station>
+  <station name="Mels" easting="750410" northing="212510" number="2426" water-body-name="Seez" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2426_PegelRadarSteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>494.330</value>
+      <max-24h>494.388</max-24h>
+      <mean-24h>494.320</mean-24h>
+      <min-24h>494.268</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2426_AbflussRadarSteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">3.769</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">5.099</max-24h>
+      <mean-24h>3.609</mean-24h>
+      <min-24h>2.636</min-24h>
+    </parameter>
+  </station>
+  <station name="Mogelsberg, Aachsäge" easting="727110" northing="247290" number="2374" water-body-name="Necker" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2374_PegelRadarBruecke">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>604.605</value>
+      <max-24h>604.608</max-24h>
+      <mean-24h>604.585</mean-24h>
+      <min-24h>604.568</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2374_AbflussRadarBruecke">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" warn-level-class="1">1.861</value>
+      <max-24h hq-class="1" warn-level-class="1">1.893</max-24h>
+      <mean-24h>1.655</mean-24h>
+      <min-24h>1.490</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2374_Wassertemperatur1">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value temperature-class="2">8.390</value>
+      <max-24h temperature-class="4">12.580</max-24h>
+      <mean-24h>9.980</mean-24h>
+      <min-24h>7.910</min-24h>
+    </parameter>
+  </station>
+  <station name="Mollis, Linthbrücke" easting="723985" northing="217965" number="2372" water-body-name="Linth" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2372_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">29.511</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">47.795</max-24h>
+      <mean-24h>36.959</mean-24h>
+      <min-24h>26.978</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2372_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>434.232</value>
+      <max-24h>434.548</max-24h>
+      <mean-24h>434.367</mean-24h>
+      <min-24h>434.181</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2372_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">6.700</value>
+      <max-24h temperature-class="2">8.500</max-24h>
+      <mean-24h>7.300</mean-24h>
+      <min-24h>5.900</min-24h>
+    </parameter>
+  </station>
+  <station name="Mosnang, Rietholz" easting="718840" northing="248440" number="2414" water-body-name="Rietholzbach" water-body-type="river">
+    <parameter name="Abfluss l/s" unit="l/s" field-name="BAFU_2414_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">21.489</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">31.488</max-24h>
+      <mean-24h>20.711</mean-24h>
+      <min-24h>17.169</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2414_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>681.761</value>
+      <max-24h>681.788</max-24h>
+      <mean-24h>681.758</mean-24h>
+      <min-24h>681.747</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2414_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.020</value>
+      <max-24h temperature-class="3">10.710</max-24h>
+      <mean-24h>9.010</mean-24h>
+      <min-24h>8.020</min-24h>
+    </parameter>
+  </station>
+  <station name="Moutier, La Charrue" easting="595740" northing="237010" number="2122" water-body-name="Birse" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2122_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">1.829</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">4.222</max-24h>
+      <mean-24h>2.127</mean-24h>
+      <min-24h>1.313</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2122_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>518.430</value>
+      <max-24h>518.646</max-24h>
+      <mean-24h>518.457</mean-24h>
+      <min-24h>518.361</min-24h>
+    </parameter>
+  </station>
+  <station name="Muotathal" easting="702392" northing="203328" number="2499" water-body-name="Schlichenden Brünnen" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2499_PegelRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>635.993</value>
+      <max-24h>636.028</max-24h>
+      <mean-24h>636.002</mean-24h>
+      <min-24h>635.989</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2499_AbflussRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" warn-level-class="1">3.036</value>
+      <max-24h hq-class="1" warn-level-class="1">3.484</max-24h>
+      <mean-24h>3.143</mean-24h>
+      <min-24h>2.987</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2499_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">6.210</value>
+      <max-24h temperature-class="2">6.250</max-24h>
+      <mean-24h>6.210</mean-24h>
+      <min-24h>6.190</min-24h>
+    </parameter>
+  </station>
+  <station name="Muotathal, Hölloch" easting="702700" northing="203700" number="2636" water-body-name="Hölloch" water-body-type="river">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_2636_PegelDrucksonde">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>-0.008</value>
+      <max-24h>-0.006</max-24h>
+      <mean-24h>-0.008</mean-24h>
+      <min-24h>-0.010</min-24h>
+    </parameter>
+  </station>
+  <station name="Murg" easting="734430" northing="219560" number="2118" water-body-name="Walensee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2118_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">418.948</value>
+      <max-24h warn-level-class="1">418.948</max-24h>
+      <mean-24h>418.909</mean-24h>
+      <min-24h>418.883</min-24h>
+    </parameter>
+  </station>
+  <station name="Murgenthal" easting="629530" northing="235090" number="2063" water-body-name="Aare" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2063_PegelPneumatikoben">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>399.025</value>
+      <max-24h>399.063</max-24h>
+      <mean-24h>398.986</mean-24h>
+      <min-24h>398.877</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2063_AbflussPneumatikoben">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">230.849</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">238.557</max-24h>
+      <mean-24h>223.468</mean-24h>
+      <min-24h>202.694</min-24h>
+    </parameter>
+  </station>
+  <station name="Murgenthal, Walliswil" easting="629340" northing="233555" number="2471" water-body-name="Murg" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2471_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">2.983</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">5.255</max-24h>
+      <mean-24h>3.061</mean-24h>
+      <min-24h>2.307</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2471_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>418.456</value>
+      <max-24h>418.606</max-24h>
+      <mean-24h>418.458</mean-24h>
+      <min-24h>418.403</min-24h>
+    </parameter>
+  </station>
+  <station name="Murten" easting="575500" northing="197790" number="2004" water-body-name="Murtensee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2004_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">429.450</value>
+      <max-24h warn-level-class="1">429.455</max-24h>
+      <mean-24h>429.445</mean-24h>
+      <min-24h>429.426</min-24h>
+    </parameter>
+  </station>
+  <station name="Mühlau, Hünenberg" easting="672520" northing="230600" number="2110" water-body-name="Reuss" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2110_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">128.797</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">129.872</max-24h>
+      <mean-24h>123.618</mean-24h>
+      <min-24h>119.562</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2110_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>390.086</value>
+      <max-24h>390.094</max-24h>
+      <mean-24h>390.047</mean-24h>
+      <min-24h>390.016</min-24h>
+    </parameter>
+  </station>
+  <station name="Mühlbach. Trennbauwerk Sand" easting="760059" northing="190378" number="2632" water-body-name="Mühlbach" water-body-type="river">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_2632_PegelRadarObertorer">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>0.737</value>
+      <max-24h>0.739</max-24h>
+      <mean-24h>0.733</mean-24h>
+      <min-24h>0.723</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2632_AbflussRadarObertorer">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value quantile-class="1">0.413</value>
+      <max-24h quantile-class="1">0.419</max-24h>
+      <mean-24h>0.401</mean-24h>
+      <min-24h>0.374</min-24h>
+    </parameter>
+  </station>
+  <station name="Münchenstein, Hofmatt" easting="613570" northing="263080" number="2106" water-body-name="Birs" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2106_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">8.033</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">10.152</max-24h>
+      <mean-24h>7.028</mean-24h>
+      <min-24h>4.618</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2106_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>267.354</value>
+      <max-24h>267.406</max-24h>
+      <mean-24h>267.325</mean-24h>
+      <min-24h>267.254</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2106_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.500</value>
+      <max-24h temperature-class="4">12.100</max-24h>
+      <mean-24h>11.400</mean-24h>
+      <min-24h>10.500</min-24h>
+    </parameter>
+  </station>
+  <station name="Müstair" easting="830800" northing="168700" number="2617" water-body-name="Rom" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2617_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">2.578</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.873</max-24h>
+      <mean-24h>2.605</mean-24h>
+      <min-24h>2.091</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2617_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1233.815</value>
+      <max-24h>1233.844</max-24h>
+      <mean-24h>1233.817</mean-24h>
+      <min-24h>1233.763</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2617_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">5.000</value>
+      <max-24h temperature-class="3">9.300</max-24h>
+      <mean-24h>6.200</mean-24h>
+      <min-24h>4.600</min-24h>
+    </parameter>
+  </station>
+  <station name="Nebikon" easting="640560" northing="226740" number="2497" water-body-name="Luthern" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2497_PegelRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>486.661</value>
+      <max-24h>486.715</max-24h>
+      <mean-24h>486.652</mean-24h>
+      <min-24h>486.612</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2497_AbflussRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" warn-level-class="1">0.924</value>
+      <max-24h hq-class="1" warn-level-class="1">1.575</max-24h>
+      <mean-24h>0.886</mean-24h>
+      <min-24h>0.525</min-24h>
+    </parameter>
+  </station>
+  <station name="Neftenbach" easting="691461" northing="263820" number="2132" water-body-name="Töss" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2132_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">4.024</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">6.070</max-24h>
+      <mean-24h>3.929</mean-24h>
+      <min-24h>2.088</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2132_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>388.539</value>
+      <max-24h>388.613</max-24h>
+      <mean-24h>388.532</mean-24h>
+      <min-24h>388.447</min-24h>
+    </parameter>
+  </station>
+  <station name="Neuchâtel, Nid-du-Crô" easting="562913" northing="205165" number="2642" water-body-name="Lac de Neuchâtel" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2642_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">429.456</value>
+      <max-24h warn-level-class="1">429.462</max-24h>
+      <mean-24h>429.448</mean-24h>
+      <min-24h>429.433</min-24h>
+    </parameter>
+  </station>
+  <station name="Neuenkirch" easting="658530" northing="218290" number="2608" water-body-name="Sellenbodenbach" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2608_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">0.091</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">0.283</max-24h>
+      <mean-24h>0.100</mean-24h>
+      <min-24h>0.047</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2608_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>515.936</value>
+      <max-24h>516.003</max-24h>
+      <mean-24h>515.934</mean-24h>
+      <min-24h>515.910</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2608_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.800</value>
+      <max-24h temperature-class="4">12.200</max-24h>
+      <mean-24h>10.500</mean-24h>
+      <min-24h>8.800</min-24h>
+    </parameter>
+  </station>
+  <station name="Neuhausen, Flurlingerbrücke" easting="689180" northing="281880" number="2288" water-body-name="Rhein" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2288_PegelRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>382.912</value>
+      <max-24h>382.917</max-24h>
+      <mean-24h>382.897</mean-24h>
+      <min-24h>382.877</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2288_AbflussRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" warn-level-class="1">257.045</value>
+      <max-24h hq-class="1" warn-level-class="1">258.390</max-24h>
+      <mean-24h>252.966</mean-24h>
+      <min-24h>247.759</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2288_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.100</value>
+      <max-24h temperature-class="3">11.000</max-24h>
+      <mean-24h>9.800</mean-24h>
+      <min-24h>8.800</min-24h>
+    </parameter>
+  </station>
+  <station name="Oberkirch" easting="651320" northing="223140" number="2417" water-body-name="Suhre" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2417_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.621</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.625</max-24h>
+      <mean-24h>1.596</mean-24h>
+      <min-24h>1.571</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2417_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>503.571</value>
+      <max-24h>503.572</max-24h>
+      <mean-24h>503.565</mean-24h>
+      <min-24h>503.559</min-24h>
+    </parameter>
+  </station>
+  <station name="Oberried/Lenk" easting="602630" northing="141660" number="2219" water-body-name="Simme" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2219_PegelPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>1100.045</value>
+      <max-24h>1100.055</max-24h>
+      <mean-24h>1100.042</mean-24h>
+      <min-24h>1100.026</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2219_AbflussPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.372</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.497</max-24h>
+      <mean-24h>1.339</mean-24h>
+      <min-24h>1.151</min-24h>
+    </parameter>
+  </station>
+  <station name="Oberriet, Blatten" easting="761215" northing="241750" number="2041" water-body-name="Rhein" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2041_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>420.289</value>
+      <max-24h>420.315</max-24h>
+      <mean-24h>420.163</mean-24h>
+      <min-24h>419.905</min-24h>
+    </parameter>
+  </station>
+  <station name="Oberwald" easting="670520" northing="153830" number="2607" water-body-name="Goneri" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2607_PegelRadarMesssteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1381.322</value>
+      <max-24h>1381.336</max-24h>
+      <mean-24h>1381.325</mean-24h>
+      <min-24h>1381.289</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2607_AbflussRadarMesssteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">1.417</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">1.584</max-24h>
+      <mean-24h>1.461</mean-24h>
+      <min-24h>1.131</min-24h>
+    </parameter>
+  </station>
+  <station name="Oberwald" easting="669870" northing="154080" number="2623" water-body-name="Rhône" water-body-type="river">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2623_Wassertemperatur1">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>3.190</value>
+      <max-24h>4.640</max-24h>
+      <mean-24h>3.750</mean-24h>
+      <min-24h>2.940</min-24h>
+    </parameter>
+  </station>
+  <station name="Oberwil" easting="600060" northing="167090" number="2151" water-body-name="Simme" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2151_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>776.938</value>
+      <max-24h>777.012</max-24h>
+      <mean-24h>776.948</mean-24h>
+      <min-24h>776.894</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2151_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">18.400</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">21.564</max-24h>
+      <mean-24h>18.840</mean-24h>
+      <min-24h>16.637</min-24h>
+    </parameter>
+  </station>
+  <station name="Ocourt" easting="572530" northing="244460" number="2210" water-body-name="Doubs" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2210_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>418.367</value>
+      <max-24h>418.378</max-24h>
+      <mean-24h>418.369</mean-24h>
+      <min-24h>418.362</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2210_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">9.698</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">10.046</max-24h>
+      <mean-24h>9.746</mean-24h>
+      <min-24h>9.543</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2210_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.900</value>
+      <max-24h temperature-class="4">12.600</max-24h>
+      <mean-24h>11.700</mean-24h>
+      <min-24h>10.900</min-24h>
+    </parameter>
+  </station>
+  <station name="Olten, Hammermühle" easting="634330" northing="244480" number="2434" water-body-name="Dünnern" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2434_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">1.405</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.791</max-24h>
+      <mean-24h>1.482</mean-24h>
+      <min-24h>0.883</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2434_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>400.443</value>
+      <max-24h>400.527</max-24h>
+      <mean-24h>400.440</mean-24h>
+      <min-24h>400.391</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2434_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.000</value>
+      <max-24h temperature-class="4">12.600</max-24h>
+      <mean-24h>11.400</mean-24h>
+      <min-24h>10.000</min-24h>
+    </parameter>
+  </station>
+  <station name="Orbe, Le Chalet" easting="530080" northing="175560" number="2378" water-body-name="Orbe" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2378_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">6.854</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">13.764</max-24h>
+      <mean-24h>8.808</mean-24h>
+      <min-24h>2.487</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2378_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>449.465</value>
+      <max-24h>449.706</max-24h>
+      <mean-24h>449.531</mean-24h>
+      <min-24h>449.239</min-24h>
+    </parameter>
+  </station>
+  <station name="Payerne, Caserne d'aviation" easting="561660" northing="187320" number="2034" water-body-name="Broye" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2034_PegelPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>440.205</value>
+      <max-24h>440.272</max-24h>
+      <mean-24h>440.204</mean-24h>
+      <min-24h>440.139</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2034_AbflussPneumatik">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">4.030</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">5.595</max-24h>
+      <mean-24h>4.055</mean-24h>
+      <min-24h>2.705</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2034_Wassertemperatur">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value temperature-class="3">10.800</value>
+      <max-24h temperature-class="4">12.400</max-24h>
+      <mean-24h>11.800</mean-24h>
+      <min-24h>10.800</min-24h>
+    </parameter>
+  </station>
+  <station name="Pfäffikon" easting="701220" northing="246775" number="2081" water-body-name="Pfäffikersee" water-body-type="lake" />
+  <station name="Piotta" easting="694610" northing="152450" number="2364" water-body-name="Ticino" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2364_AbflussRadar">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">1.273</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.608</max-24h>
+      <mean-24h>1.225</mean-24h>
+      <min-24h>0.973</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2364_PegelRadar">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>1006.861</value>
+      <max-24h>1006.901</max-24h>
+      <mean-24h>1006.855</mean-24h>
+      <min-24h>1006.822</min-24h>
+    </parameter>
+  </station>
+  <station name="Pollegio, Campagna" easting="716120" northing="135330" number="2494" water-body-name="Ticino" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2494_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">14.968</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">33.253</max-24h>
+      <mean-24h>17.097</mean-24h>
+      <min-24h>6.643</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2494_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>290.702</value>
+      <max-24h>290.920</max-24h>
+      <mean-24h>290.725</mean-24h>
+      <min-24h>290.567</min-24h>
+    </parameter>
+  </station>
+  <station name="Ponte Tresa" easting="710200" northing="91800" number="2021" water-body-name="Lago di Lugano" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2021_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">270.189</value>
+      <max-24h warn-level-class="1">270.189</max-24h>
+      <mean-24h>270.169</mean-24h>
+      <min-24h>270.153</min-24h>
+    </parameter>
+  </station>
+  <station name="Ponte Tresa, Rocchetta" easting="709580" northing="92145" number="2167" water-body-name="Tresa" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2167_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">12.723</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">12.723</max-24h>
+      <mean-24h>11.650</mean-24h>
+      <min-24h>10.654</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2167_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>268.152</value>
+      <max-24h>268.152</max-24h>
+      <mean-24h>268.126</mean-24h>
+      <min-24h>268.101</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2167_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="4">12.900</value>
+      <max-24h temperature-class="4">13.540</max-24h>
+      <mean-24h>13.210</mean-24h>
+      <min-24h>12.880</min-24h>
+    </parameter>
+  </station>
+  <station name="Pontresina" easting="789440" northing="151320" number="2262" water-body-name="Berninabach" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2262_PegelRadarSteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1804.390</value>
+      <max-24h>1804.414</max-24h>
+      <mean-24h>1804.382</mean-24h>
+      <min-24h>1804.341</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2262_AbflussRadarSteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">4.226</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">4.632</max-24h>
+      <mean-24h>4.102</mean-24h>
+      <min-24h>3.474</min-24h>
+    </parameter>
+  </station>
+  <station name="Pontresina" easting="788810" northing="151690" number="2256" water-body-name="Rosegbach" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2256_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.403</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.552</max-24h>
+      <mean-24h>1.343</mean-24h>
+      <min-24h>1.100</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2256_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1766.264</value>
+      <max-24h>1766.278</max-24h>
+      <mean-24h>1766.257</mean-24h>
+      <min-24h>1766.232</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2256_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">2.600</value>
+      <max-24h temperature-class="2">6.400</max-24h>
+      <mean-24h>4.000</mean-24h>
+      <min-24h>2.300</min-24h>
+    </parameter>
+  </station>
+  <station name="Porte du Scex" easting="557660" northing="133280" number="2009" water-body-name="Rhône" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2009_AbflussPneumatikunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">142.330</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">152.310</max-24h>
+      <mean-24h>137.711</mean-24h>
+      <min-24h>124.273</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2009_PegelPneumatikunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>375.038</value>
+      <max-24h>375.108</max-24h>
+      <mean-24h>375.004</mean-24h>
+      <min-24h>374.905</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2009_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.800</value>
+      <max-24h temperature-class="3">9.000</max-24h>
+      <mean-24h>8.500</mean-24h>
+      <min-24h>8.100</min-24h>
+    </parameter>
+  </station>
+  <station name="Pregassona" easting="718010" northing="97380" number="2321" water-body-name="Cassarate" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2321_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">2.884</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">3.194</max-24h>
+      <mean-24h>2.133</mean-24h>
+      <min-24h>1.267</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2321_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>286.101</value>
+      <max-24h>286.116</max-24h>
+      <mean-24h>286.056</mean-24h>
+      <min-24h>285.990</min-24h>
+    </parameter>
+  </station>
+  <station name="Punt dal Gall" easting="811020" northing="167920" number="2239" water-body-name="Spöl" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2239_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">0.603</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">0.633</max-24h>
+      <mean-24h>0.602</mean-24h>
+      <min-24h>0.570</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2239_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1679.890</value>
+      <max-24h>1679.902</max-24h>
+      <mean-24h>1679.890</mean-24h>
+      <min-24h>1679.876</min-24h>
+    </parameter>
+  </station>
+  <station name="Reckingen" easting="661910" northing="146780" number="2419" water-body-name="Rhône" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2419_AbflussRadarSteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">8.419</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">8.731</max-24h>
+      <mean-24h>7.916</mean-24h>
+      <min-24h>7.209</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2419_PegelRadarSteg">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1311.745</value>
+      <max-24h>1311.755</max-24h>
+      <mean-24h>1311.728</mean-24h>
+      <min-24h>1311.704</min-24h>
+    </parameter>
+  </station>
+  <station name="Rekingen" easting="667060" northing="269230" number="2143" water-body-name="Rhein" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2143_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">308.009</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">318.206</max-24h>
+      <mean-24h>301.362</mean-24h>
+      <min-24h>286.245</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2143_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>322.408</value>
+      <max-24h>322.438</max-24h>
+      <mean-24h>322.388</mean-24h>
+      <min-24h>322.343</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2143_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.400</value>
+      <max-24h temperature-class="4">12.070</max-24h>
+      <mean-24h>11.010</mean-24h>
+      <min-24h>10.400</min-24h>
+    </parameter>
+  </station>
+  <station name="Rheinau" easting="687420" northing="277140" number="2392" water-body-name="Rhein (Oberwasser)" water-body-type="river">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2392_Wassertemperatur1">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value temperature-class="3">10.990</value>
+      <max-24h temperature-class="3">11.000</max-24h>
+      <mean-24h>9.560</mean-24h>
+      <min-24h>9.080</min-24h>
+    </parameter>
+  </station>
+  <station name="Rheinfelden" easting="627190" northing="267840" number="2091" water-body-name="Rhein" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2091_PegelPneumatikunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>261.785</value>
+      <max-24h>261.832</max-24h>
+      <mean-24h>261.744</mean-24h>
+      <min-24h>261.678</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2091_AbflussPneumatikunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">799.303</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">831.790</max-24h>
+      <mean-24h>770.800</mean-24h>
+      <min-24h>724.343</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2091_Wassertemperaturunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">11.800</value>
+      <max-24h temperature-class="4">12.890</max-24h>
+      <mean-24h>12.380</mean-24h>
+      <min-24h>11.800</min-24h>
+    </parameter>
+  </station>
+  <station name="Rheinsfelden" easting="678040" northing="269720" number="2415" water-body-name="Glatt" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2415_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">6.409</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">7.100</max-24h>
+      <mean-24h>4.588</mean-24h>
+      <min-24h>3.330</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2415_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>335.668</value>
+      <max-24h>335.693</max-24h>
+      <mean-24h>335.594</mean-24h>
+      <min-24h>335.542</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2415_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="4">12.280</value>
+      <max-24h temperature-class="4">14.800</max-24h>
+      <mean-24h>13.460</mean-24h>
+      <min-24h>12.280</min-24h>
+    </parameter>
+  </station>
+  <station name="Riazzino" easting="713670" northing="113500" number="2068" water-body-name="Ticino" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2068_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>197.815</value>
+      <max-24h>198.106</max-24h>
+      <mean-24h>197.817</mean-24h>
+      <min-24h>197.590</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2068_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">7.600</value>
+      <max-24h temperature-class="2">8.400</max-24h>
+      <mean-24h>8.000</mean-24h>
+      <min-24h>7.400</min-24h>
+    </parameter>
+  </station>
+  <station name="Ringgenberg" easting="635150" northing="172340" number="2023" water-body-name="Brienzersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2023_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">563.875</value>
+      <max-24h warn-level-class="1">563.876</max-24h>
+      <mean-24h>563.857</mean-24h>
+      <min-24h>563.845</min-24h>
+    </parameter>
+  </station>
+  <station name="Ringgenberg, Goldswil" easting="633730" northing="171510" number="2457" water-body-name="Aare" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2457_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>563.851</value>
+      <max-24h>563.852</max-24h>
+      <mean-24h>563.831</mean-24h>
+      <min-24h>563.817</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2457_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">67.222</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">67.421</max-24h>
+      <mean-24h>63.134</mean-24h>
+      <min-24h>60.321</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2457_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">7.400</value>
+      <max-24h temperature-class="3">10.500</max-24h>
+      <mean-24h>8.700</mean-24h>
+      <min-24h>7.400</min-24h>
+    </parameter>
+  </station>
+  <station name="Romanshorn" easting="746160" northing="270040" number="2032" water-body-name="Bodensee, Obersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2032_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">395.302</value>
+      <max-24h warn-level-class="1">395.306</max-24h>
+      <mean-24h>395.285</mean-24h>
+      <min-24h>395.271</min-24h>
+    </parameter>
+  </station>
+  <station name="Roveredo, Bacino di compenso" easting="733545" northing="118160" number="2347" water-body-name="Riale di Roggiasca" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2347_PegelSchwimmer">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>981.730</value>
+      <max-24h>981.742</max-24h>
+      <mean-24h>981.708</mean-24h>
+      <min-24h>981.681</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2347_AbflussSchwimmer">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="4" warn-level-class="1">2.004</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">2.139</max-24h>
+      <mean-24h>1.763</mean-24h>
+      <min-24h>1.470</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2347_Wassertemperatur">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value temperature-class="1">3.500</value>
+      <max-24h temperature-class="1">4.200</max-24h>
+      <mean-24h>3.800</mean-24h>
+      <min-24h>3.300</min-24h>
+    </parameter>
+  </station>
+  <station name="Ruggell" easting="757751" northing="234590" number="2410" water-body-name="Liechtensteiner Binnenkanal" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2410_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="4" warn-level-class="1">8.823</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">8.922</max-24h>
+      <mean-24h>8.808</mean-24h>
+      <min-24h>8.667</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2410_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>433.143</value>
+      <max-24h>433.150</max-24h>
+      <mean-24h>433.142</mean-24h>
+      <min-24h>433.132</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2410_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.820</value>
+      <max-24h temperature-class="3">10.960</max-24h>
+      <mean-24h>9.660</mean-24h>
+      <min-24h>8.550</min-24h>
+    </parameter>
+  </station>
+  <station name="Rämismühle" easting="703795" northing="255605" number="520" water-body-name="Töss" water-body-type="river" />
+  <station name="S-Chanf" easting="795800" northing="165910" number="2462" water-body-name="Inn" water-body-type="river">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2462_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">3.700</value>
+      <max-24h temperature-class="2">7.600</max-24h>
+      <mean-24h>5.400</mean-24h>
+      <min-24h>3.700</min-24h>
+    </parameter>
+  </station>
+  <station name="Salez" easting="756795" northing="234005" number="2187" water-body-name="Werdenberger Binnenkanal" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2187_PegelSchwimmer">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>432.162</value>
+      <max-24h>432.195</max-24h>
+      <mean-24h>432.161</mean-24h>
+      <min-24h>432.132</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2187_AbflussSchwimmer">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">6.434</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">6.995</max-24h>
+      <mean-24h>6.417</mean-24h>
+      <min-24h>5.944</min-24h>
+    </parameter>
+  </station>
+  <station name="Salmsach, Hungerbühl" easting="744410" northing="268400" number="2312" water-body-name="Aach" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2312_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>406.040</value>
+      <max-24h>406.101</max-24h>
+      <mean-24h>405.993</mean-24h>
+      <min-24h>405.953</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2312_AbflussRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">0.287</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">0.431</max-24h>
+      <mean-24h>0.209</mean-24h>
+      <min-24h>0.140</min-24h>
+    </parameter>
+  </station>
+  <station name="San Giacomo di Fraéle" easting="815600" northing="159150" number="2329" water-body-name="Derivazione Spöl" water-body-type="river">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_2329_PegelLimnigraphCoder">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>0.867</value>
+      <max-24h>0.975</max-24h>
+      <mean-24h>0.868</mean-24h>
+      <min-24h>0.758</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2329_AbflussLimnigraphCoder">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value quantile-class="2">2.903</value>
+      <max-24h quantile-class="3">3.473</max-24h>
+      <mean-24h>2.915</mean-24h>
+      <min-24h>2.358</min-24h>
+    </parameter>
+  </station>
+  <station name="Sarnen" easting="661460" northing="194220" number="2102" water-body-name="Sarner Aa" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2102_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">9.948</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">10.080</max-24h>
+      <mean-24h>9.845</mean-24h>
+      <min-24h>9.559</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2102_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>468.862</value>
+      <max-24h>468.868</max-24h>
+      <mean-24h>468.857</mean-24h>
+      <min-24h>468.844</min-24h>
+    </parameter>
+  </station>
+  <station name="Sarnen" easting="661260" northing="193270" number="2088" water-body-name="Sarnersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2088_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>469.454</value>
+      <max-24h>469.456</max-24h>
+      <mean-24h>469.444</mean-24h>
+      <min-24h>469.431</min-24h>
+    </parameter>
+  </station>
+  <station name="Schmerikon" easting="713710" northing="231515" number="2014" water-body-name="Zürichsee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2014_PegelRadarSchacht">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>405.913</value>
+      <max-24h>405.930</max-24h>
+      <mean-24h>405.912</mean-24h>
+      <min-24h>405.898</min-24h>
+    </parameter>
+  </station>
+  <station name="Seedorf" easting="690085" northing="193210" number="2056" water-body-name="Reuss" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2056_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">47.779</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">56.779</max-24h>
+      <mean-24h>47.123</mean-24h>
+      <min-24h>35.269</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2056_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>437.792</value>
+      <max-24h>437.918</max-24h>
+      <mean-24h>437.780</mean-24h>
+      <min-24h>437.597</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2056_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">5.600</value>
+      <max-24h temperature-class="2">8.700</max-24h>
+      <mean-24h>6.400</mean-24h>
+      <min-24h>4.900</min-24h>
+    </parameter>
+  </station>
+  <station name="Sempach" easting="656940" northing="220640" number="2168" water-body-name="Sempachersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2168_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>503.849</value>
+      <max-24h>503.851</max-24h>
+      <mean-24h>503.845</mean-24h>
+      <min-24h>503.840</min-24h>
+    </parameter>
+  </station>
+  <station name="Sils Baselgia" easting="777870" northing="145180" number="2072" water-body-name="Silsersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2072_PegelSilserseeSilsBaselgia2072">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>1796.302</value>
+      <max-24h>1796.302</max-24h>
+      <mean-24h>1796.290</mean-24h>
+      <min-24h>1796.276</min-24h>
+    </parameter>
+  </station>
+  <station name="Silvaplana" easting="781560" northing="148150" number="2073" water-body-name="Silvaplanersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2073_PegelSilvaplanerseeSilvaplana2073">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>1790.262</value>
+      <max-24h>1790.262</max-24h>
+      <mean-24h>1790.252</mean-24h>
+      <min-24h>1790.241</min-24h>
+    </parameter>
+  </station>
+  <station name="Sion" easting="593770" northing="118630" number="2011" water-body-name="Rhône" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2011_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">54.003</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">80.091</max-24h>
+      <mean-24h>65.606</mean-24h>
+      <min-24h>54.003</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2011_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>482.967</value>
+      <max-24h>483.274</max-24h>
+      <mean-24h>483.109</mean-24h>
+      <min-24h>482.967</min-24h>
+    </parameter>
+  </station>
+  <station name="Sion" easting="594400" northing="119900" number="2630" water-body-name="Sionne" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2630_PegelRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>494.519</value>
+      <max-24h>494.529</max-24h>
+      <mean-24h>494.518</mean-24h>
+      <min-24h>494.495</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2630_AbflussRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1">0.767</value>
+      <max-24h hq-class="1">0.864</max-24h>
+      <mean-24h>0.760</mean-24h>
+      <min-24h>0.556</min-24h>
+    </parameter>
+  </station>
+  <station name="Soglio" easting="760770" northing="133450" number="2620" water-body-name="Mera" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2620_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2">2.824</value>
+      <max-24h hq-class="1" quantile-class="2">3.148</max-24h>
+      <mean-24h>2.701</mean-24h>
+      <min-24h>2.369</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2620_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>732.818</value>
+      <max-24h>732.839</max-24h>
+      <mean-24h>732.809</mean-24h>
+      <min-24h>732.786</min-24h>
+    </parameter>
+  </station>
+  <station name="Sonceboz" easting="579810" northing="227350" number="2307" water-body-name="Suze" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2307_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>643.047</value>
+      <max-24h>643.062</max-24h>
+      <mean-24h>643.035</mean-24h>
+      <min-24h>642.968</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2307_AbflussRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">2.104</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.395</max-24h>
+      <mean-24h>1.900</mean-24h>
+      <min-24h>0.908</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2307_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.700</value>
+      <max-24h temperature-class="3">9.500</max-24h>
+      <mean-24h>9.100</mean-24h>
+      <min-24h>8.700</min-24h>
+    </parameter>
+  </station>
+  <station name="Soyhières, Bois du Treuil" easting="596780" northing="249070" number="2478" water-body-name="Birse" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2478_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>389.218</value>
+      <max-24h>389.279</max-24h>
+      <mean-24h>389.234</mean-24h>
+      <min-24h>389.193</min-24h>
+    </parameter>
+  </station>
+  <station name="Spiez" easting="617280" northing="171750" number="2093" water-body-name="Thunersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2093_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">557.711</value>
+      <max-24h warn-level-class="1">557.736</max-24h>
+      <mean-24h>557.725</mean-24h>
+      <min-24h>557.711</min-24h>
+    </parameter>
+  </station>
+  <station name="St-Prex" easting="524940" northing="148410" number="2027" water-body-name="Lac Léman" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2027_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">371.740</value>
+      <max-24h warn-level-class="1">371.741</max-24h>
+      <mean-24h>371.730</mean-24h>
+      <min-24h>371.716</min-24h>
+    </parameter>
+  </station>
+  <station name="St-Sulpice" easting="532980" northing="195880" number="2290" water-body-name="Areuse" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2290_PegelRadarSchacht">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>750.264</value>
+      <max-24h>750.280</max-24h>
+      <mean-24h>750.231</mean-24h>
+      <min-24h>750.187</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2290_AbflussRadarSchacht">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">2.657</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.983</max-24h>
+      <mean-24h>2.163</mean-24h>
+      <min-24h>1.483</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2290_Wassertemperatur">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value temperature-class="2">7.700</value>
+      <max-24h temperature-class="2">7.800</max-24h>
+      <mean-24h>7.700</mean-24h>
+      <min-24h>7.700</min-24h>
+    </parameter>
+  </station>
+  <station name="St. Gallen, Bruggen/Au" easting="742540" northing="253230" number="2468" water-body-name="Sitter" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2468_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">9.649</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">9.743</max-24h>
+      <mean-24h>7.046</mean-24h>
+      <min-24h>2.861</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2468_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>575.433</value>
+      <max-24h>575.435</max-24h>
+      <mean-24h>575.362</mean-24h>
+      <min-24h>575.222</min-24h>
+    </parameter>
+  </station>
+  <station name="St. Moritz" easting="784940" northing="152420" number="2066" water-body-name="St. Moritzersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2066_PegelStMoritzerseeStMoritz2066">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>1767.906</value>
+      <max-24h>1767.906</max-24h>
+      <mean-24h>1767.857</mean-24h>
+      <min-24h>1767.823</min-24h>
+    </parameter>
+  </station>
+  <station name="St. Moritzbad" easting="783910" northing="150960" number="2105" water-body-name="Inn" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2105_PegelRadarBrueckeInnStMoritzbad">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>1770.480</value>
+      <max-24h>1770.489</max-24h>
+      <mean-24h>1770.479</mean-24h>
+      <min-24h>1770.463</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2105_AbflussRadarBrueckeStMoritzbad">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>3.570</value>
+      <max-24h>3.720</max-24h>
+      <mean-24h>3.552</mean-24h>
+      <min-24h>3.297</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2105_PegelDrucksondeInnStMoritzbad">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="5" warn-level-class="5">1770.485</value>
+      <max-24h hq-class="5" warn-level-class="5">1770.494</max-24h>
+      <mean-24h>1770.485</mean-24h>
+      <min-24h>1770.469</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2105_AbflussDrucksondeInnStMoritzbad">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">3.653</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">3.805</max-24h>
+      <mean-24h>3.655</mean-24h>
+      <min-24h>3.392</min-24h>
+    </parameter>
+  </station>
+  <station name="St.Margrethen" easting="767160" northing="257780" number="2139" water-body-name="Rheintaler Binnenkanal" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2139_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">11.635</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">11.727</max-24h>
+      <mean-24h>10.772</mean-24h>
+      <min-24h>10.215</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2139_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>398.393</value>
+      <max-24h>398.397</max-24h>
+      <mean-24h>398.355</mean-24h>
+      <min-24h>398.330</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2139_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.910</value>
+      <max-24h temperature-class="4">12.700</max-24h>
+      <mean-24h>11.520</mean-24h>
+      <min-24h>10.040</min-24h>
+    </parameter>
+  </station>
+  <station name="Sugiez" easting="575340" northing="201450" number="2447" water-body-name="Canal de la Broye" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2447_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>429.432</value>
+      <max-24h>429.456</max-24h>
+      <mean-24h>429.433</mean-24h>
+      <min-24h>429.405</min-24h>
+    </parameter>
+  </station>
+  <station name="Sumvitg, Encardens" easting="718810" northing="167690" number="2430" water-body-name="Rein da Sumvitg" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2430_PegelSchwimmer">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1411.228</value>
+      <max-24h>1411.237</max-24h>
+      <mean-24h>1411.215</mean-24h>
+      <min-24h>1411.190</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2430_AbflussSchwimmer">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">0.970</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.052</max-24h>
+      <mean-24h>0.865</mean-24h>
+      <min-24h>0.660</min-24h>
+    </parameter>
+  </station>
+  <station name="Tarasp" easting="816800" northing="185910" number="2265" water-body-name="Inn" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2265_PegelRadarlinks">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1182.641</value>
+      <max-24h>1182.649</max-24h>
+      <mean-24h>1182.616</mean-24h>
+      <min-24h>1182.585</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2265_AbflussRadarlinks">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">15.469</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">15.814</max-24h>
+      <mean-24h>14.476</mean-24h>
+      <min-24h>13.223</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2265_WassertemperaturT1PT100linksunten">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="1">5.260</value>
+      <max-24h temperature-class="3">9.260</max-24h>
+      <mean-24h>6.790</mean-24h>
+      <min-24h>5.090</min-24h>
+    </parameter>
+  </station>
+  <station name="Thun" easting="613230" northing="179280" number="2030" water-body-name="Aare" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2030_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">140.802</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">141.681</max-24h>
+      <mean-24h>136.426</mean-24h>
+      <min-24h>125.112</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2030_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>548.878</value>
+      <max-24h>548.886</max-24h>
+      <mean-24h>548.837</mean-24h>
+      <min-24h>548.730</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2030_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.400</value>
+      <max-24h temperature-class="3">11.300</max-24h>
+      <mean-24h>10.800</mean-24h>
+      <min-24h>10.200</min-24h>
+    </parameter>
+  </station>
+  <station name="Thörishaus, Sensematt" easting="593350" northing="193020" number="2179" water-body-name="Sense" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2179_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">11.124</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">14.421</max-24h>
+      <mean-24h>9.613</mean-24h>
+      <min-24h>7.653</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2179_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>550.964</value>
+      <max-24h>551.020</max-24h>
+      <mean-24h>550.925</mean-24h>
+      <min-24h>550.877</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2179_Wassertemperatur1">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.890</value>
+      <max-24h temperature-class="3">9.850</max-24h>
+      <mean-24h>9.500</mean-24h>
+      <min-24h>8.890</min-24h>
+    </parameter>
+  </station>
+  <station name="Tiefencastel" easting="763420" northing="170145" number="2141" water-body-name="Albula" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2141_PegelSchwimmerSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>837.133</value>
+      <max-24h>837.293</max-24h>
+      <mean-24h>837.142</mean-24h>
+      <min-24h>837.026</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2141_AbflussSchwimmerSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">16.048</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">24.292</max-24h>
+      <mean-24h>16.617</mean-24h>
+      <min-24h>11.401</min-24h>
+    </parameter>
+  </station>
+  <station name="Tiefencastel" easting="763570" northing="169910" number="2418" water-body-name="Julia" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2418_PegelDrucksondeSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>845.207</value>
+      <max-24h>845.208</max-24h>
+      <mean-24h>845.207</mean-24h>
+      <min-24h>845.205</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2418_AbflussDrucksondeSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">0.277</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">0.280</max-24h>
+      <mean-24h>0.276</mean-24h>
+      <min-24h>0.273</min-24h>
+    </parameter>
+  </station>
+  <station name="Untersiggenthal, Stilli" easting="659965" northing="263100" number="2205" water-body-name="Aare" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2205_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>325.744</value>
+      <max-24h>325.787</max-24h>
+      <mean-24h>325.724</mean-24h>
+      <min-24h>325.670</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2205_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">467.099</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">494.450</max-24h>
+      <mean-24h>454.441</mean-24h>
+      <min-24h>421.058</min-24h>
+    </parameter>
+  </station>
+  <station name="Unterägeri" easting="687480" northing="221420" number="2031" water-body-name="Aegerisee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2031_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>723.570</value>
+      <max-24h>723.572</max-24h>
+      <mean-24h>723.568</mean-24h>
+      <min-24h>723.564</min-24h>
+    </parameter>
+  </station>
+  <station name="Valangin" easting="559370" northing="206810" number="2458" water-body-name="Seyon" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2458_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">0.188</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">1.064</max-24h>
+      <mean-24h>0.386</mean-24h>
+      <min-24h>0.110</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2458_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>628.251</value>
+      <max-24h>628.387</max-24h>
+      <mean-24h>628.284</mean-24h>
+      <min-24h>628.229</min-24h>
+    </parameter>
+  </station>
+  <station name="Vevey, Coppet" easting="554675" northing="146565" number="2486" water-body-name="Veveyse" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2486_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">2.203</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">3.455</max-24h>
+      <mean-24h>2.125</mean-24h>
+      <min-24h>1.434</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2486_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>394.957</value>
+      <max-24h>395.024</max-24h>
+      <mean-24h>394.949</mean-24h>
+      <min-24h>394.902</min-24h>
+    </parameter>
+  </station>
+  <station name="Vicques" easting="599485" northing="244150" number="2610" water-body-name="Scheulte" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2610_PegelRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>464.224</value>
+      <max-24h>464.231</max-24h>
+      <mean-24h>464.213</mean-24h>
+      <min-24h>464.186</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2610_AbflussRadarBruecke">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" warn-level-class="1">0.805</value>
+      <max-24h hq-class="1" warn-level-class="1">0.862</max-24h>
+      <mean-24h>0.726</mean-24h>
+      <min-24h>0.520</min-24h>
+    </parameter>
+  </station>
+  <station name="Visp" easting="634150" northing="124850" number="2351" water-body-name="Vispa" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2351_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>653.751</value>
+      <max-24h>653.995</max-24h>
+      <mean-24h>653.901</mean-24h>
+      <min-24h>653.751</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2351_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">5.585</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">21.119</max-24h>
+      <mean-24h>14.245</mean-24h>
+      <min-24h>5.585</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2351_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">7.200</value>
+      <max-24h temperature-class="2">7.200</max-24h>
+      <mean-24h>5.900</mean-24h>
+      <min-24h>4.700</min-24h>
+    </parameter>
+  </station>
+  <station name="Vuippens, Château" easting="572420" northing="167540" number="2412" water-body-name="Sionge" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2412_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>681.003</value>
+      <max-24h>681.151</max-24h>
+      <mean-24h>681.002</mean-24h>
+      <min-24h>680.961</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2412_AbflussRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">0.601</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">1.833</max-24h>
+      <mean-24h>0.624</mean-24h>
+      <min-24h>0.348</min-24h>
+    </parameter>
+  </station>
+  <station name="Wasen, Kurzeneialp" easting="630725" northing="207270" number="2282" water-body-name="Sperbelgraben" water-body-type="river">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_2282_PegelDrucksondeSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>0.142</value>
+      <max-24h>0.255</max-24h>
+      <mean-24h>0.140</mean-24h>
+      <min-24h>0.101</min-24h>
+    </parameter>
+    <parameter name="Abfluss l/s" unit="l/s" field-name="BAFU_2282_AbflussDrucksondeSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3">11.055</value>
+      <max-24h hq-class="1" quantile-class="4">46.426</max-24h>
+      <mean-24h>12.205</mean-24h>
+      <min-24h>4.654</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2282_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">6.100</value>
+      <max-24h temperature-class="2">7.400</max-24h>
+      <mean-24h>6.700</mean-24h>
+      <min-24h>6.100</min-24h>
+    </parameter>
+  </station>
+  <station name="Wasen, Riedbad" easting="634340" northing="207350" number="2283" water-body-name="Rappengraben" water-body-type="river">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_2283_PegelDrucksondeSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>0.118</value>
+      <max-24h>0.191</max-24h>
+      <mean-24h>0.116</mean-24h>
+      <min-24h>0.090</min-24h>
+    </parameter>
+    <parameter name="Abfluss l/s" unit="l/s" field-name="BAFU_2283_AbflussDrucksondeSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3">13.558</value>
+      <max-24h hq-class="1" quantile-class="4">50.503</max-24h>
+      <mean-24h>14.570</mean-24h>
+      <min-24h>6.585</min-24h>
+    </parameter>
+  </station>
+  <station name="Weesen, Biäsche" easting="725160" northing="221380" number="2104" water-body-name="Linth" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2104_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">51.224</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">51.224</max-24h>
+      <mean-24h>49.470</mean-24h>
+      <min-24h>47.909</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2104_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>418.733</value>
+      <max-24h>418.733</max-24h>
+      <mean-24h>418.697</mean-24h>
+      <min-24h>418.665</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2104_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="2">8.400</value>
+      <max-24h temperature-class="3">9.800</max-24h>
+      <mean-24h>9.000</mean-24h>
+      <min-24h>8.000</min-24h>
+    </parameter>
+  </station>
+  <station name="Weil, Palmrainbrücke" easting="611740" northing="272310" number="2613" water-body-name="Rhein" water-body-type="river">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2613_WassertemperaturS3">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="4">12.380</value>
+      <max-24h temperature-class="4">13.500</max-24h>
+      <mean-24h>12.960</mean-24h>
+      <min-24h>12.380</min-24h>
+    </parameter>
+  </station>
+  <station name="Werthenstein, Chappelboden" easting="647870" northing="209510" number="2487" water-body-name="Kleine Emme" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2487_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>592.369</value>
+      <max-24h>592.406</max-24h>
+      <mean-24h>592.331</mean-24h>
+      <min-24h>592.266</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2487_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">17.147</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">19.771</max-24h>
+      <mean-24h>14.789</mean-24h>
+      <min-24h>10.849</min-24h>
+    </parameter>
+  </station>
+  <station name="Wiler, Limpachmündung" easting="608220" northing="223240" number="2155" water-body-name="Emme" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2155_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>455.960</value>
+      <max-24h>455.975</max-24h>
+      <mean-24h>455.875</mean-24h>
+      <min-24h>455.758</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2155_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value quantile-class="3" warn-level-class="1">9.314</value>
+      <max-24h quantile-class="3" warn-level-class="1">9.978</max-24h>
+      <mean-24h>6.437</mean-24h>
+      <min-24h>3.160</min-24h>
+    </parameter>
+  </station>
+  <station name="Wängi" easting="714105" northing="261720" number="2126" water-body-name="Murg" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2126_PegelRadarSchacht">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value>465.776</value>
+      <max-24h>465.806</max-24h>
+      <mean-24h>465.763</mean-24h>
+      <min-24h>465.746</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2126_AbflussRadarSchacht">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">0.728</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.041</max-24h>
+      <mean-24h>0.614</mean-24h>
+      <min-24h>0.463</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2126_Wassertemperatur1">
+      <datetime>2021-05-01T04:50:00+01:00</datetime>
+      <value temperature-class="3">10.450</value>
+      <max-24h temperature-class="4">13.560</max-24h>
+      <mean-24h>11.560</mean-24h>
+      <min-24h>10.450</min-24h>
+    </parameter>
+  </station>
+  <station name="Yvonand" easting="545440" northing="180875" number="2369" water-body-name="Mentue" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2369_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">1.094</value>
+      <max-24h hq-class="1" quantile-class="4" warn-level-class="1">2.154</max-24h>
+      <mean-24h>1.237</mean-24h>
+      <min-24h>0.612</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2369_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>446.503</value>
+      <max-24h>446.593</max-24h>
+      <mean-24h>446.511</mean-24h>
+      <min-24h>446.442</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2369_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">9.500</value>
+      <max-24h temperature-class="3">10.800</max-24h>
+      <mean-24h>10.300</mean-24h>
+      <min-24h>9.500</min-24h>
+    </parameter>
+  </station>
+  <station name="Zernez " easting="804930" northing="174830" number="2319" water-body-name="Ova da Cluozza" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2319_PegelRadarBruecke">
+      <datetime>2021-04-30T13:00:00+01:00</datetime>
+      <value>1508.438</value>
+      <max-24h>1508.463</max-24h>
+      <mean-24h>1508.441</mean-24h>
+      <min-24h>1508.427</min-24h>
+    </parameter>
+  </station>
+  <station name="Zernez, Punt la Drossa" easting="810560" northing="170790" number="2304" water-body-name="Ova dal Fuorn" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2304_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">1.244</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">1.299</max-24h>
+      <mean-24h>1.172</mean-24h>
+      <min-24h>1.016</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2304_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>1704.962</value>
+      <max-24h>1704.978</max-24h>
+      <mean-24h>1704.941</mean-24h>
+      <min-24h>1704.894</min-24h>
+    </parameter>
+  </station>
+  <station name="Zofingen" easting="637580" northing="237080" number="2450" water-body-name="Wigger" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2450_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>426.264</value>
+      <max-24h>426.367</max-24h>
+      <mean-24h>426.226</mean-24h>
+      <min-24h>426.154</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2450_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">4.152</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">6.279</max-24h>
+      <mean-24h>3.706</mean-24h>
+      <min-24h>2.599</min-24h>
+    </parameter>
+  </station>
+  <station name="Zug" easting="681555" northing="224660" number="2017" water-body-name="Zugersee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2017_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">413.455</value>
+      <max-24h warn-level-class="1">413.465</max-24h>
+      <mean-24h>413.455</mean-24h>
+      <min-24h>413.446</min-24h>
+    </parameter>
+  </station>
+  <station name="Zug, Letzi" easting="680600" northing="226070" number="2477" water-body-name="Lorze" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2477_AbflussPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">1.740</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.387</max-24h>
+      <mean-24h>1.709</mean-24h>
+      <min-24h>1.483</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2477_PegelPneumatik">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>416.183</value>
+      <max-24h>416.233</max-24h>
+      <mean-24h>416.180</mean-24h>
+      <min-24h>416.161</min-24h>
+    </parameter>
+  </station>
+  <station name="Zweilütschinen" easting="635310" northing="164550" number="2200" water-body-name="Weisse Lütschine" water-body-type="river">
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2200_AbflussRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">4.763</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">5.334</max-24h>
+      <mean-24h>4.696</mean-24h>
+      <min-24h>4.004</min-24h>
+    </parameter>
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2200_PegelRadar">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>650.307</value>
+      <max-24h>650.331</max-24h>
+      <mean-24h>650.304</mean-24h>
+      <min-24h>650.273</min-24h>
+    </parameter>
+  </station>
+  <station name="Zürich" easting="682145" northing="246890" number="2176" water-body-name="Sihl" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2176_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>412.334</value>
+      <max-24h>412.373</max-24h>
+      <mean-24h>412.336</mean-24h>
+      <min-24h>412.312</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2176_AbflussRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">5.707</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">7.346</max-24h>
+      <mean-24h>5.799</mean-24h>
+      <min-24h>4.862</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2176_Wassertemperatur">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value temperature-class="3">10.600</value>
+      <max-24h temperature-class="4">13.800</max-24h>
+      <mean-24h>12.300</mean-24h>
+      <min-24h>10.600</min-24h>
+    </parameter>
+  </station>
+  <station name="Zürich" easting="684000" northing="245475" number="2209" water-body-name="Zürichsee" water-body-type="lake">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2209_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value warn-level-class="1">405.936</value>
+      <max-24h warn-level-class="1">405.939</max-24h>
+      <mean-24h>405.933</mean-24h>
+      <min-24h>405.922</min-24h>
+    </parameter>
+  </station>
+  <station name="Zürich Unterhard" easting="682055" northing="249430" number="2099" water-body-name="Limmat" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2099_PegelRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value>400.153</value>
+      <max-24h>400.173</max-24h>
+      <mean-24h>400.146</mean-24h>
+      <min-24h>400.095</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2099_AbflussRadarSchacht">
+      <datetime>2021-05-01T05:00:00+01:00</datetime>
+      <value hq-class="1" quantile-class="2" warn-level-class="1">73.077</value>
+      <max-24h hq-class="1" quantile-class="2" warn-level-class="1">75.195</max-24h>
+      <mean-24h>72.369</mean-24h>
+      <min-24h>67.125</min-24h>
+    </parameter>
+  </station>
+</locations>

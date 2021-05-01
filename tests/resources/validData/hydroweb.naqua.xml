@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<locations xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" export-time="2021-05-01T03:45:00+01:00" xsi:schemaLocation="http://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd">
+  <station name="Abtwil" easting="741745" northing="255204" number="6743" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6743_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.454</value>
+      <max-24h>0.455</max-24h>
+      <mean-24h>0.451</mean-24h>
+      <min-24h>0.006</min-24h>
+    </parameter>
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6743_Abfluss">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>72.596</value>
+      <max-24h>75.503</max-24h>
+      <mean-24h>68.837</mean-24h>
+      <min-24h>58.813</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6743_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>8.220</value>
+      <max-24h>8.280</max-24h>
+      <mean-24h>8.220</mean-24h>
+      <min-24h>8.220</min-24h>
+    </parameter>
+  </station>
+  <station name="Airolo" easting="688558" northing="154556" number="6572" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6572_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.366</value>
+      <max-24h>0.370</max-24h>
+      <mean-24h>0.360</mean-24h>
+      <min-24h>0.350</min-24h>
+    </parameter>
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6572_Abflusslmin">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>480.000</value>
+      <max-24h>540.000</max-24h>
+      <mean-24h>389.167</mean-24h>
+      <min-24h>240.000</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6572_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>6.280</value>
+      <max-24h>6.290</max-24h>
+      <mean-24h>6.280</mean-24h>
+      <min-24h>6.280</min-24h>
+    </parameter>
+  </station>
+  <station name="Alt St. Johann" easting="739516" northing="228615" number="6595" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6595_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.437</value>
+      <max-24h>0.438</max-24h>
+      <mean-24h>0.436</mean-24h>
+      <min-24h>0.433</min-24h>
+    </parameter>
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6595_Abfluss">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>11541.486</value>
+      <max-24h>11605.896</max-24h>
+      <mean-24h>11481.088</mean-24h>
+      <min-24h>11285.193</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6595_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>5.860</value>
+      <max-24h>5.910</max-24h>
+      <mean-24h>5.870</mean-24h>
+      <min-24h>5.830</min-24h>
+    </parameter>
+  </station>
+  <station name="Andermatt" easting="688000" northing="163000" number="6705" water-body-name="Quelle" water-body-type="spring" />
+  <station name="Bagnes-Fionnay - Plan de Dzeu" easting="590295" northing="97589" number="6755" water-body-name="Piezometer" water-body-type="piezometer" />
+  <station name="Basel" easting="609911" northing="267207" number="6562" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6562_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>258.760</value>
+      <max-24h>258.763</max-24h>
+      <mean-24h>258.759</mean-24h>
+      <min-24h>258.756</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6562_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>16.010</value>
+      <max-24h>16.030</max-24h>
+      <mean-24h>16.020</mean-24h>
+      <min-24h>15.860</min-24h>
+    </parameter>
+  </station>
+  <station name="Bettwil" easting="662689" northing="237465" number="6580" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6580_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>685.858</value>
+      <max-24h>685.875</max-24h>
+      <mean-24h>685.731</mean-24h>
+      <min-24h>684.878</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6580_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>8.900</value>
+      <max-24h>9.000</max-24h>
+      <mean-24h>8.900</mean-24h>
+      <min-24h>8.700</min-24h>
+    </parameter>
+  </station>
+  <station name="Bever" easting="787430" northing="158970" number="6732" water-body-name="Quelle" water-body-type="spring" />
+  <station name="Boncourt" easting="567096" northing="257118" number="6748" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6748_Pegel">
+      <datetime>2021-05-01T00:00:00+01:00</datetime>
+      <value>0.537</value>
+      <max-24h>0.681</max-24h>
+      <mean-24h>0.569</mean-24h>
+      <min-24h>0.514</min-24h>
+    </parameter>
+    <parameter name="Abfluss l/s" unit="l/s" field-name="BAFU_6748_Abflussls">
+      <datetime>2021-05-01T00:00:00+01:00</datetime>
+      <value>33.849</value>
+      <max-24h>97.202</max-24h>
+      <mean-24h>46.707</mean-24h>
+      <min-24h>27.304</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6748_Wassertemperatur">
+      <datetime>2021-05-01T00:00:00+01:00</datetime>
+      <value>10.400</value>
+      <max-24h>10.400</max-24h>
+      <mean-24h>10.400</mean-24h>
+      <min-24h>10.390</min-24h>
+    </parameter>
+  </station>
+  <station name="Brittnau" easting="638350" northing="236186" number="6588" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6588_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>422.992</value>
+      <max-24h>423.017</max-24h>
+      <mean-24h>422.957</mean-24h>
+      <min-24h>421.782</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6588_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>12.250</value>
+      <max-24h>12.350</max-24h>
+      <mean-24h>12.260</mean-24h>
+      <min-24h>12.240</min-24h>
+    </parameter>
+  </station>
+  <station name="Brot-Dessous" easting="547255" northing="200385" number="6560" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6560_Abflussgemessen">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>1827.000</value>
+      <max-24h>1836.000</max-24h>
+      <mean-24h>1817.208</mean-24h>
+      <min-24h>1799.000</min-24h>
+    </parameter>
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6560_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.319</value>
+      <max-24h>0.320</max-24h>
+      <mean-24h>0.314</mean-24h>
+      <min-24h>0.308</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6560_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>11.990</value>
+      <max-24h>11.990</max-24h>
+      <mean-24h>11.990</mean-24h>
+      <min-24h>11.990</min-24h>
+    </parameter>
+  </station>
+  <station name="Brugg" easting="657544" northing="258920" number="6583" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6583_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>14.630</value>
+      <max-24h>14.650</max-24h>
+      <mean-24h>14.640</mean-24h>
+      <min-24h>14.610</min-24h>
+    </parameter>
+  </station>
+  <station name="Buechberg" easting="696280" northing="281190" number="6739" water-body-name="Piezometer" water-body-type="piezometer" />
+  <station name="Charrat" easting="576267" northing="108868" number="6578" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6578_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>10.240</value>
+      <max-24h>10.290</max-24h>
+      <mean-24h>10.260</mean-24h>
+      <min-24h>10.230</min-24h>
+    </parameter>
+  </station>
+  <station name="Commugny" easting="502748" northing="130738" number="6591" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6591_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>12.270</value>
+      <max-24h>12.280</max-24h>
+      <mean-24h>12.270</mean-24h>
+      <min-24h>12.270</min-24h>
+    </parameter>
+  </station>
+  <station name="Cormoret, Source de la Dou" easting="569930" northing="224040" number="C749" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6749_PegelInSitu">
+      <datetime>2021-05-01T03:00:00+01:00</datetime>
+      <value>0.448</value>
+      <max-24h>0.450</max-24h>
+      <mean-24h>0.409</mean-24h>
+      <min-24h>0.378</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6749_WassertemperaturInSitu">
+      <datetime>2021-05-01T03:00:00+01:00</datetime>
+      <value>8.080</value>
+      <max-24h>8.160</max-24h>
+      <mean-24h>8.090</mean-24h>
+      <min-24h>8.070</min-24h>
+    </parameter>
+  </station>
+  <station name="Delémont" easting="592770" northing="246405" number="6592" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6592_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.217</value>
+      <max-24h>0.217</max-24h>
+      <mean-24h>0.178</mean-24h>
+      <min-24h>0.171</min-24h>
+    </parameter>
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6592_Abflusslmin">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>2994.000</value>
+      <max-24h>2994.000</max-24h>
+      <mean-24h>1311.729</mean-24h>
+      <min-24h>1026.000</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6592_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>10.960</value>
+      <max-24h>10.960</max-24h>
+      <mean-24h>10.960</mean-24h>
+      <min-24h>10.960</min-24h>
+    </parameter>
+  </station>
+  <station name="Dietikon" easting="672315" northing="251617" number="6559" water-body-name="Grundwasser" water-body-type="groundwater">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6559_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>381.732</value>
+      <max-24h>382.044</max-24h>
+      <mean-24h>381.544</mean-24h>
+      <min-24h>380.534</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6559_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>13.240</value>
+      <max-24h>13.360</max-24h>
+      <mean-24h>13.230</mean-24h>
+      <min-24h>13.070</min-24h>
+    </parameter>
+  </station>
+  <station name="Domat/Ems 2" easting="755175" northing="189491" number="6607" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6607_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>9.140</value>
+      <max-24h>9.160</max-24h>
+      <mean-24h>9.030</mean-24h>
+      <min-24h>8.920</min-24h>
+    </parameter>
+  </station>
+  <station name="Düdingen" easting="581520" northing="187820" number="6579" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6579_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>10.260</value>
+      <max-24h>10.260</max-24h>
+      <mean-24h>10.240</mean-24h>
+      <min-24h>10.150</min-24h>
+    </parameter>
+  </station>
+  <station name="Emmen, Marienkirche 6" easting="664249" northing="213698" number="6738" water-body-name="Förderbrunnen" water-body-type="well" />
+  <station name="Enney, La Léchire (Les Frassettes)" easting="571806" northing="156393" number="6756" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6756_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.531</value>
+      <max-24h>0.536</max-24h>
+      <mean-24h>0.531</mean-24h>
+      <min-24h>0.524</min-24h>
+    </parameter>
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6756_Abfluss">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>2120.663</value>
+      <max-24h>2237.861</max-24h>
+      <mean-24h>2119.165</mean-24h>
+      <min-24h>1965.428</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6756_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>9.280</value>
+      <max-24h>9.290</max-24h>
+      <mean-24h>9.280</mean-24h>
+      <min-24h>9.280</min-24h>
+    </parameter>
+  </station>
+  <station name="Ermensee, Chilchfeld NQG25" easting="661480" northing="231090" number="6542" water-body-name="Piezometer" water-body-type="piezometer" />
+  <station name="Freienstein" easting="687121" northing="266856" number="6567" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6567_Abflusslmin">
+      <datetime>2021-04-30T11:00:00+01:00</datetime>
+      <value>14.538</value>
+      <max-24h>18.229</max-24h>
+      <mean-24h>14.394</mean-24h>
+      <min-24h>10.870</min-24h>
+    </parameter>
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6567_Pegel">
+      <datetime>2021-04-30T11:00:00+01:00</datetime>
+      <value>0.464</value>
+      <max-24h>0.465</max-24h>
+      <mean-24h>0.464</mean-24h>
+      <min-24h>0.463</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6567_Wassertemperatur">
+      <datetime>2021-04-30T11:00:00+01:00</datetime>
+      <value>8.770</value>
+      <max-24h>8.770</max-24h>
+      <mean-24h>8.770</mean-24h>
+      <min-24h>8.770</min-24h>
+    </parameter>
+  </station>
+  <station name="Giubiasco" easting="718659" northing="114031" number="6573" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6573_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>208.711</value>
+      <max-24h>208.711</max-24h>
+      <mean-24h>208.527</mean-24h>
+      <min-24h>208.217</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6573_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>10.950</value>
+      <max-24h>11.030</max-24h>
+      <mean-24h>10.780</mean-24h>
+      <min-24h>10.450</min-24h>
+    </parameter>
+  </station>
+  <station name="Glattfelden" easting="680206" northing="267623" number="6558" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6558_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>13.450</value>
+      <max-24h>13.480</max-24h>
+      <mean-24h>13.430</mean-24h>
+      <min-24h>13.380</min-24h>
+    </parameter>
+  </station>
+  <station name="Goldingen" easting="715998" northing="235905" number="6587" water-body-name="Grundwasser" water-body-type="groundwater">
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6587_Durchflusslmin">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>2618.000</value>
+      <max-24h>2665.000</max-24h>
+      <mean-24h>2611.455</mean-24h>
+      <min-24h>2541.000</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6587_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>9.270</value>
+      <max-24h>9.270</max-24h>
+      <mean-24h>9.270</mean-24h>
+      <min-24h>9.260</min-24h>
+    </parameter>
+  </station>
+  <station name="HG2851 Sennwald, Salez, Bifang" easting="756454" northing="234152" number="6523" water-body-name="Piezometer" water-body-type="piezometer" />
+  <station name="HG8755 Gossau (SG), Hirschberg" easting="738022" northing="252922" number="6707" water-body-name="Piezometer" water-body-type="piezometer" />
+  <station name="Hausen" easting="684432" northing="232505" number="6745" water-body-name="Quelle" water-body-type="spring" />
+  <station name="Heitenried" easting="590320" northing="187110" number="6585" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6585_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.323</value>
+      <max-24h>0.325</max-24h>
+      <mean-24h>0.324</mean-24h>
+      <min-24h>0.322</min-24h>
+    </parameter>
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6585_Abflusslmin">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>191.220</value>
+      <max-24h>205.500</max-24h>
+      <mean-24h>194.815</mean-24h>
+      <min-24h>184.080</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6585_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>9.330</value>
+      <max-24h>9.330</max-24h>
+      <mean-24h>9.330</mean-24h>
+      <min-24h>9.330</min-24h>
+    </parameter>
+  </station>
+  <station name="Hellikon 1" easting="636870" northing="262347" number="6598" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6598_Abfluss">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>334.000</value>
+      <max-24h>345.000</max-24h>
+      <mean-24h>333.608</mean-24h>
+      <min-24h>321.000</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6598_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>10.640</value>
+      <max-24h>10.690</max-24h>
+      <mean-24h>10.650</mean-24h>
+      <min-24h>10.610</min-24h>
+    </parameter>
+  </station>
+  <station name="Hundwil" easting="742081" northing="247782" number="6744" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6744_Pegelm">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>0.436</value>
+      <max-24h>0.439</max-24h>
+      <mean-24h>0.437</mean-24h>
+      <min-24h>0.436</min-24h>
+    </parameter>
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6744_Abflusslmin">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>63.482</value>
+      <max-24h>68.543</max-24h>
+      <mean-24h>65.446</mean-24h>
+      <min-24h>63.482</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6744_Temperatur">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>8.270</value>
+      <max-24h>8.270</max-24h>
+      <mean-24h>8.270</mean-24h>
+      <min-24h>8.270</min-24h>
+    </parameter>
+  </station>
+  <station name="Innerkirchen, Wyler" easting="661284" northing="173233" number="6753" water-body-name="Quelle" water-body-type="spring" />
+  <station name="Kappelen" easting="585575" northing="211365" number="6566" water-body-name="Grundwasser" water-body-type="groundwater">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6566_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>11.520</value>
+      <max-24h>11.600</max-24h>
+      <mean-24h>11.510</mean-24h>
+      <min-24h>11.480</min-24h>
+    </parameter>
+  </station>
+  <station name="Kestenholz" easting="623810" northing="237680" number="6535" water-body-name="Piezometer" water-body-type="piezometer" />
+  <station name="Kiesen" easting="610735" northing="183359" number="6561" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6561_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>10.820</value>
+      <max-24h>10.840</max-24h>
+      <mean-24h>10.830</mean-24h>
+      <min-24h>10.820</min-24h>
+    </parameter>
+  </station>
+  <station name="L'Abbaye" easting="514540" northing="166750" number="6564" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6564_PegelFluss">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.193</value>
+      <max-24h>0.201</max-24h>
+      <mean-24h>0.150</mean-24h>
+      <min-24h>0.123</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_6564_AbflussFluss">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.902</value>
+      <max-24h>1.009</max-24h>
+      <mean-24h>0.482</mean-24h>
+      <min-24h>0.255</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6564_WassertemperaturBassin">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>6.250</value>
+      <max-24h>6.250</max-24h>
+      <mean-24h>6.170</mean-24h>
+      <min-24h>6.150</min-24h>
+    </parameter>
+  </station>
+  <station name="Lavigny" easting="520204" northing="150784" number="6590" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6590_Wassertemperatur">
+      <datetime>2021-05-01T04:20:00+01:00</datetime>
+      <value>10.730</value>
+      <max-24h>10.920</max-24h>
+      <mean-24h>10.790</mean-24h>
+      <min-24h>10.580</min-24h>
+    </parameter>
+  </station>
+  <station name="Lenk" easting="599935" northing="141240" number="6563" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6563_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.415</value>
+      <max-24h>0.419</max-24h>
+      <mean-24h>0.412</mean-24h>
+      <min-24h>0.343</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_6563_Abfluss">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.146</value>
+      <max-24h>0.148</max-24h>
+      <mean-24h>0.145</mean-24h>
+      <min-24h>0.124</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6563_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>6.380</value>
+      <max-24h>6.470</max-24h>
+      <mean-24h>6.430</mean-24h>
+      <min-24h>6.380</min-24h>
+    </parameter>
+  </station>
+  <station name="Lucens 1" easting="555454" northing="174192" number="6575" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6575_Pegel">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>477.827</value>
+      <max-24h>477.896</max-24h>
+      <mean-24h>477.748</mean-24h>
+      <min-24h>477.585</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6575_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>10.760</value>
+      <max-24h>10.770</max-24h>
+      <mean-24h>10.750</mean-24h>
+      <min-24h>10.700</min-24h>
+    </parameter>
+  </station>
+  <station name="Luterbach" easting="612100" northing="230205" number="6557" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6557_Pegel">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>421.396</value>
+      <max-24h>421.763</max-24h>
+      <mean-24h>421.586</mean-24h>
+      <min-24h>420.960</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6557_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>11.600</value>
+      <max-24h>11.700</max-24h>
+      <mean-24h>11.600</mean-24h>
+      <min-24h>11.600</min-24h>
+    </parameter>
+  </station>
+  <station name="Marthalen" easting="688850" northing="273790" number="6711" water-body-name="Chachberg" water-body-type="groundwater" />
+  <station name="Mezzovico, Vira" easting="714409" northing="105963" number="6734" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6734_PegelInSitu">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.372</value>
+      <max-24h>0.373</max-24h>
+      <mean-24h>0.372</mean-24h>
+      <min-24h>0.370</min-24h>
+    </parameter>
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6734_AbflusslminInSitu">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>454.320</value>
+      <max-24h>465.780</max-24h>
+      <mean-24h>453.683</mean-24h>
+      <min-24h>431.400</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6734_WassertemperaturInSitu">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>10.600</value>
+      <max-24h>10.600</max-24h>
+      <mean-24h>10.600</mean-24h>
+      <min-24h>10.600</min-24h>
+    </parameter>
+  </station>
+  <station name="Moleno" easting="720095" northing="125672" number="6602" water-body-name="Piezometer" water-body-type="piezometer" />
+  <station name="Monthey" easting="563157" northing="124660" number="6601" water-body-name="Grundwasser" water-body-type="groundwater">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6601_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>11.400</value>
+      <max-24h>11.500</max-24h>
+      <mean-24h>11.400</mean-24h>
+      <min-24h>11.400</min-24h>
+    </parameter>
+  </station>
+  <station name="Montmagny - La Molliettaz" easting="567400" northing="197800" number="6603" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6603_Abflusslmin">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>90.286</value>
+      <max-24h>92.106</max-24h>
+      <mean-24h>89.023</mean-24h>
+      <min-24h>83.222</min-24h>
+    </parameter>
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6603_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.199</value>
+      <max-24h>0.200</max-24h>
+      <mean-24h>0.198</mean-24h>
+      <min-24h>0.195</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6603_Temperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>9.280</value>
+      <max-24h>9.280</max-24h>
+      <mean-24h>9.270</mean-24h>
+      <min-24h>9.260</min-24h>
+    </parameter>
+  </station>
+  <station name="Mund" easting="639185" northing="130545" number="6577" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6577_Pegel">
+      <datetime>2021-05-01T00:00:00+01:00</datetime>
+      <value>0.386</value>
+      <max-24h>0.391</max-24h>
+      <mean-24h>0.388</mean-24h>
+      <min-24h>0.381</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_6577_Abfluss">
+      <datetime>2021-05-01T00:00:00+01:00</datetime>
+      <value>0.020</value>
+      <max-24h>0.021</max-24h>
+      <mean-24h>0.020</mean-24h>
+      <min-24h>0.019</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6577_Wassertemperatur">
+      <datetime>2021-05-01T00:00:00+01:00</datetime>
+      <value>7.960</value>
+      <max-24h>7.960</max-24h>
+      <mean-24h>7.960</mean-24h>
+      <min-24h>7.960</min-24h>
+    </parameter>
+  </station>
+  <station name="Muotathal" easting="702392" northing="203328" number="2499" water-body-name="Schlichenden Brünnen" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2499_PegelRadarBruecke">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>635.997</value>
+      <max-24h>636.041</max-24h>
+      <mean-24h>636.002</mean-24h>
+      <min-24h>635.989</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2499_AbflussRadarBruecke">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value hq-class="1" warn-level-class="1">3.086</value>
+      <max-24h hq-class="1" warn-level-class="1">3.659</max-24h>
+      <mean-24h>3.150</mean-24h>
+      <min-24h>2.987</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2499_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value temperature-class="2">6.210</value>
+      <max-24h temperature-class="2">6.250</max-24h>
+      <mean-24h>6.210</mean-24h>
+      <min-24h>6.190</min-24h>
+    </parameter>
+  </station>
+  <station name="Muttenz" easting="614090" northing="265515" number="6582" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6582_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>11.240</value>
+      <max-24h>11.710</max-24h>
+      <mean-24h>11.420</mean-24h>
+      <min-24h>11.240</min-24h>
+    </parameter>
+  </station>
+  <station name="Märstetten" easting="721832" northing="270944" number="6569" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6569_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>411.194</value>
+      <max-24h>411.685</max-24h>
+      <mean-24h>411.370</mean-24h>
+      <min-24h>411.177</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6569_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>11.900</value>
+      <max-24h>11.930</max-24h>
+      <mean-24h>11.850</mean-24h>
+      <min-24h>11.660</min-24h>
+    </parameter>
+  </station>
+  <station name="Niederlenz" easting="654160" northing="251230" number="6570" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6570_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>11.100</value>
+      <max-24h>11.190</max-24h>
+      <mean-24h>11.140</mean-24h>
+      <min-24h>11.100</min-24h>
+    </parameter>
+  </station>
+  <station name="Näfels, Erlen" easting="722960" northing="215919" number="6568" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6568_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>442.727</value>
+      <max-24h>442.756</max-24h>
+      <mean-24h>442.664</mean-24h>
+      <min-24h>442.515</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6568_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>7.490</value>
+      <max-24h>8.120</max-24h>
+      <mean-24h>7.580</mean-24h>
+      <min-24h>7.390</min-24h>
+    </parameter>
+  </station>
+  <station name="Oberdorf, Quelle Ursprung" easting="673490" northing="198805" number="6586" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6586_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.278</value>
+      <max-24h>0.379</max-24h>
+      <mean-24h>0.309</mean-24h>
+      <min-24h>0.270</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6586_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>8.250</value>
+      <max-24h>8.250</max-24h>
+      <mean-24h>8.250</mean-24h>
+      <min-24h>8.240</min-24h>
+    </parameter>
+  </station>
+  <station name="Oberegg - St. Anton " easting="758444" northing="253314" number="6735" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6735_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.377</value>
+      <max-24h>0.380</max-24h>
+      <mean-24h>0.377</mean-24h>
+      <min-24h>0.375</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_6735_Abfluss">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.002</value>
+      <max-24h>0.002</max-24h>
+      <mean-24h>0.002</mean-24h>
+      <min-24h>0.002</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6735_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>6.900</value>
+      <max-24h>6.930</max-24h>
+      <mean-24h>6.880</mean-24h>
+      <min-24h>6.840</min-24h>
+    </parameter>
+  </station>
+  <station name="Oberglatt" easting="681180" northing="260550" number="6714" water-body-name="B2" water-body-type="groundwater" />
+  <station name="Oberriet, Balanggen" easting="761550" northing="242470" number="6565" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6565_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>11.360</value>
+      <max-24h>11.410</max-24h>
+      <mean-24h>10.530</mean-24h>
+      <min-24h>9.920</min-24h>
+    </parameter>
+  </station>
+  <station name="Obersaxen" easting="724443" northing="174445" number="6604" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6604_Abflusslmin">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>3713.500</value>
+      <max-24h>4008.500</max-24h>
+      <mean-24h>3564.300</mean-24h>
+      <min-24h>3329.400</min-24h>
+    </parameter>
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6604_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.581</value>
+      <max-24h>0.591</max-24h>
+      <mean-24h>0.576</mean-24h>
+      <min-24h>0.568</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6604_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>4.830</value>
+      <max-24h>4.840</max-24h>
+      <mean-24h>4.830</mean-24h>
+      <min-24h>4.820</min-24h>
+    </parameter>
+  </station>
+  <station name="Ostermundigen" easting="603661" northing="200064" number="6593" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6593_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>12.020</value>
+      <max-24h>12.060</max-24h>
+      <mean-24h>12.010</mean-24h>
+      <min-24h>11.980</min-24h>
+    </parameter>
+  </station>
+  <station name="Poschiavo QUANT" easting="803379" northing="130888" number="6716" water-body-name="Quelle" water-body-type="spring" />
+  <station name="Pratteln" easting="620208" northing="264148" number="6596" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6596_Pegel">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>260.283</value>
+      <max-24h>260.442</max-24h>
+      <mean-24h>259.230</mean-24h>
+      <min-24h>257.576</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6596_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>13.790</value>
+      <max-24h>13.910</max-24h>
+      <mean-24h>13.810</mean-24h>
+      <min-24h>13.790</min-24h>
+    </parameter>
+  </station>
+  <station name="Pregassona" easting="718113" northing="97493" number="6599" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6599_PegelInSitu">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>271.733</value>
+      <max-24h>271.738</max-24h>
+      <mean-24h>271.733</mean-24h>
+      <min-24h>271.730</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6599_WassertemperaturInSitu">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>12.810</value>
+      <max-24h>12.810</max-24h>
+      <mean-24h>12.810</mean-24h>
+      <min-24h>12.810</min-24h>
+    </parameter>
+  </station>
+  <station name="Savigny 2, Chalet des Humbert" easting="544860" northing="156690" number="6576" water-body-name="Grundwasser" water-body-type="groundwater">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6576_PegelInSitu">
+      <datetime>2021-05-01T00:00:00+01:00</datetime>
+      <value>0.470</value>
+      <max-24h>0.472</max-24h>
+      <mean-24h>0.469</mean-24h>
+      <min-24h>0.467</min-24h>
+    </parameter>
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6576_AbflusslminInSitu">
+      <datetime>2021-05-01T00:00:00+01:00</datetime>
+      <value>65.580</value>
+      <max-24h>69.300</max-24h>
+      <mean-24h>64.443</mean-24h>
+      <min-24h>60.060</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6576_TemperaturInSitu">
+      <datetime>2021-05-01T00:00:00+01:00</datetime>
+      <value>7.830</value>
+      <max-24h>7.840</max-24h>
+      <mean-24h>7.830</mean-24h>
+      <min-24h>7.830</min-24h>
+    </parameter>
+  </station>
+  <station name="Schaffhausen, Roggenäcker" easting="691838" northing="284164" number="6571" water-body-name="Piezometer" water-body-type="piezometer" />
+  <station name="Seuzach" easting="696340" northing="265720" number="6581" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6581_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>9.520</value>
+      <max-24h>9.700</max-24h>
+      <mean-24h>9.410</mean-24h>
+      <min-24h>9.270</min-24h>
+    </parameter>
+  </station>
+  <station name="Soral" easting="492415" northing="111145" number="6510" water-body-name="Piezometer" water-body-type="piezometer">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6510_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>372.678</value>
+      <max-24h>372.678</max-24h>
+      <mean-24h>372.660</mean-24h>
+      <min-24h>372.645</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6510_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>11.160</value>
+      <max-24h>11.170</max-24h>
+      <mean-24h>11.160</mean-24h>
+      <min-24h>11.150</min-24h>
+    </parameter>
+  </station>
+  <station name="St-Sulpice" easting="532980" northing="195880" number="2290" water-body-name="Areuse" water-body-type="river">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_2290_PegelRadarSchacht">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>750.267</value>
+      <max-24h>750.280</max-24h>
+      <mean-24h>750.230</mean-24h>
+      <min-24h>750.187</min-24h>
+    </parameter>
+    <parameter name="Abfluss m3/s" unit="m3/s" field-name="BAFU_2290_AbflussRadarSchacht">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value hq-class="1" quantile-class="3" warn-level-class="1">2.714</value>
+      <max-24h hq-class="1" quantile-class="3" warn-level-class="1">2.983</max-24h>
+      <mean-24h>2.147</mean-24h>
+      <min-24h>1.483</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_2290_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value temperature-class="2">7.700</value>
+      <max-24h temperature-class="2">7.800</max-24h>
+      <mean-24h>7.700</mean-24h>
+      <min-24h>7.700</min-24h>
+    </parameter>
+  </station>
+  <station name="Trub 2" easting="633435" northing="198870" number="6550" water-body-name="Piezometer" water-body-type="piezometer">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6550_Pegel">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>783.120</value>
+      <max-24h>783.123</max-24h>
+      <mean-24h>783.113</mean-24h>
+      <min-24h>783.101</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6550_Wassertemperatur">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>7.100</value>
+      <max-24h>7.100</max-24h>
+      <mean-24h>7.100</mean-24h>
+      <min-24h>7.100</min-24h>
+    </parameter>
+  </station>
+  <station name="Volketswil" easting="695130" northing="249490" number="6584" water-body-name="Piezometer" water-body-type="piezometer">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6584_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>11.670</value>
+      <max-24h>11.810</max-24h>
+      <mean-24h>11.690</mean-24h>
+      <min-24h>11.560</min-24h>
+    </parameter>
+  </station>
+  <station name="Volketswil" easting="695430" northing="250150" number="6720" water-body-name="Zelgli" water-body-type="groundwater" />
+  <station name="Vétroz, SHGN, 313863" easting="588385" northing="117024" number="6543" water-body-name="Piezometer" water-body-type="piezometer" />
+  <station name="Weisslingen" easting="700326" northing="254332" number="6742" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6742_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.394</value>
+      <max-24h>0.396</max-24h>
+      <mean-24h>0.395</mean-24h>
+      <min-24h>0.394</min-24h>
+    </parameter>
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6742_Abflusslmin">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>20.785</value>
+      <max-24h>24.605</max-24h>
+      <mean-24h>22.881</mean-24h>
+      <min-24h>20.785</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6742_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>9.220</value>
+      <max-24h>9.220</max-24h>
+      <mean-24h>9.220</mean-24h>
+      <min-24h>9.210</min-24h>
+    </parameter>
+  </station>
+  <station name="Wila" easting="706820" northing="252423" number="6721" water-body-name="Töss" water-body-type="river" />
+  <station name="Wilchingen, Tobel" easting="676220" northing="280555" number="6537" water-body-name="Piezometer" water-body-type="piezometer">
+    <parameter name="Pegel m ü. M." unit="m" field-name="BAFU_6537_Pegel">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>376.538</value>
+      <max-24h>376.538</max-24h>
+      <mean-24h>376.528</mean-24h>
+      <min-24h>376.519</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6537_Wassertemperatur">
+      <datetime>2021-05-01T04:00:00+01:00</datetime>
+      <value>10.500</value>
+      <max-24h>10.500</max-24h>
+      <mean-24h>10.500</mean-24h>
+      <min-24h>10.500</min-24h>
+    </parameter>
+  </station>
+  <station name="Wilisau" easting="640504" northing="218229" number="6589" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6589_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>10.880</value>
+      <max-24h>10.920</max-24h>
+      <mean-24h>10.880</mean-24h>
+      <min-24h>10.880</min-24h>
+    </parameter>
+  </station>
+  <station name="Worben" easting="588757" northing="216758" number="6594" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6594_Wassertemperatur">
+      <datetime>2021-05-01T04:30:00+01:00</datetime>
+      <value>12.100</value>
+      <max-24h>12.100</max-24h>
+      <mean-24h>12.000</mean-24h>
+      <min-24h>11.900</min-24h>
+    </parameter>
+  </station>
+  <station name="Zeiningen, Bachtalen 1" easting="632225" northing="265560" number="6752" water-body-name="Quelle" water-body-type="spring">
+    <parameter name="Pegel m" unit="m" field-name="BAFU_6752_Pegel">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>0.501</value>
+      <max-24h>0.503</max-24h>
+      <mean-24h>0.501</mean-24h>
+      <min-24h>0.500</min-24h>
+    </parameter>
+    <parameter name="Hydrologische Daten" unit="l/min" field-name="BAFU_6752_Abfluss">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>211.120</value>
+      <max-24h>226.720</max-24h>
+      <mean-24h>211.472</mean-24h>
+      <min-24h>203.320</min-24h>
+    </parameter>
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6752_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>9.210</value>
+      <max-24h>9.220</max-24h>
+      <mean-24h>9.220</mean-24h>
+      <min-24h>9.210</min-24h>
+    </parameter>
+  </station>
+  <station name="Zürich - Schlachthof" easting="680410" northing="248746" number="6600" water-body-name="Förderbrunnen" water-body-type="well">
+    <parameter name="Wassertemperatur" unit="°C" field-name="BAFU_6600_Wassertemperatur">
+      <datetime>2021-05-01T04:40:00+01:00</datetime>
+      <value>12.260</value>
+      <max-24h>12.260</max-24h>
+      <mean-24h>11.910</mean-24h>
+      <min-24h>11.480</min-24h>
+    </parameter>
+  </station>
+  <station name="Zürich, Aussersihl-Zweierplatz" easting="682202" northing="247522" number="6723" water-body-name="Sihl" water-body-type="river" />
+</locations>
