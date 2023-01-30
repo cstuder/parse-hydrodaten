@@ -2,6 +2,9 @@
 
 namespace cstuder\ParseHydrodaten;
 
+use cstuder\ParseValueholder\Row;
+use cstuder\ParseValueholder\Value;
+
 /**
  * Parser for legacy Hydrodaten data strings
  *
@@ -16,12 +19,12 @@ class LegacyDataParser
     /**
      * Parse data string
      * 
-     * @param string $raw legacy Hydrodaten data string
-     * @return array
+     * @param string $raw Legacy Hydrodaten data string
+     * @return Row Parse data
      */
-    public static function parse(string $raw)
+    public static function parse(string $raw): Row
     {
-        $data = [];
+        $data = new Row();
         $xml = simplexml_load_string($raw);
 
         // Loop over stations
@@ -33,8 +36,8 @@ class LegacyDataParser
             $datetime = ((string) $station->Datum) . ' ' . ((string) $station->Zeit) . ':00';
 
             $values = $station->Wert;
-            $value = NULL;
-            $previousValue = NULL;
+            $value = null;
+            $previousValue = null;
 
             foreach ($values as $v) {
                 $attributes = $v->attributes();
@@ -56,25 +59,29 @@ class LegacyDataParser
             }
 
             // Valid value found
-            if ($value !== NULL) {
-                $data[] = (object) ([
-                    'timestamp' => $timestamp,
-                    'loc' => $loc,
-                    'par' => $type,
-                    'val' => $value
-                ]);
+            if ($value !== null) {
+                $data->append(
+                    new Value(
+                        $timestamp,
+                        $loc,
+                        $type,
+                        $value
+                    )
+                );
             }
 
             // Old data found as well
-            if ($previousValue !== NULL) {
+            if ($previousValue !== null) {
                 $previousTimestamp = strtotime($datetime . ' ' . self::TIMEZONE . ' - 1 day');
 
-                $data[] = (object) ([
-                    'timestamp' => $previousTimestamp,
-                    'loc' => $loc,
-                    'par' => $type,
-                    'val' => $previousValue
-                ]);
+                $data->append(
+                    new Value(
+                        $previousTimestamp,
+                        $loc,
+                        $type,
+                        $previousValue
+                    )
+                );
             }
         }
 
@@ -84,18 +91,18 @@ class LegacyDataParser
     /**
      * Parse Wert tag
      * 
-     * Recognizes empty strings and returns NULL.
+     * Recognizes empty strings and returns null.
      * Parses to float otherwise, removing thousands separators
      * 
      * @param string $value
      * @return null|float
      */
-    public static function parseWert(string $value)
+    public static function parseWert(string $value): ?float
     {
         $value = trim($value);
 
         if ($value === '') {
-            return NULL;
+            return null;
         }
 
         $value = str_replace("'", '', $value);

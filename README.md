@@ -6,7 +6,7 @@ Simple PHP package to parse Hydrodaten (FOEN/BAFU) Open Data strings.
 
 **Disclaimer:** This library is not official and not affiliated with FOEN/BAFU.
 
-Created for usage on [api.existenz.ch](https://api.existenz.ch) and indirectly on [Aare.guru](https://aare.guru). As of 2020 in productive use.
+Created for usage on [api.existenz.ch](https://api.existenz.ch) and indirectly on [Aare.guru](https://aare.guru). As of 2023 in productive use.
 
 ## Installation
 
@@ -25,15 +25,15 @@ $data = \cstuder\ParseHydrodaten\DataParser::parse($raw);
 var_dump($data);
 ```
 
-The data is an array of StdClass objects:
+The data is a row of value objects (See [cstuder/parse-valueholder](https://github.com/cstuder/parse-valueholder)):
 
 ```php
-$data = [
-  (object) [
+$data->values = [
+  (cstuder\ParseValueholder\Value Object) [
     'timestamp' => 1619841168,
-    'loc' => '2135',
-    'par' => 'temperature',
-    'val' => 11.1
+    'location' => '2135',
+    'parameter' => 'temperature',
+    'value' => 11.1
   ],
 ...
 ];
@@ -60,7 +60,7 @@ var_dump($metadata);
 
 Not every stations measures every parameter. Not every stations reports its data at the same time.
 
-Periodicity: 10 minutes. Timezone: Europe/Zurich.
+Periodicity: 10 minutes.
 
 **Licencing restrictions apply by FOEN/BAFU.** See the Open Data download for information. FOEN/BAFU requires that all usage of the data always labels the FOEN/BAFU as source.
 
@@ -76,15 +76,17 @@ Periodicity: 10 minutes. Timezone: Europe/Zurich.
 
 There are multiple ways to access the current measurement values in different precisions and different formats. Some are password protected.
 
-| File                     | URL                                                                                    | Format                                                         | Password protected | Temperature precision | Parseable by `parse-hydroaten` | Comment                                                                                                                                                                                   |
-| ------------------------ | -------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------ | --------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Homepage                 | [www.hydrodaten.admin.ch](https://www.hydrodaten.admin.ch)                             | HTML                                                           |                    | 0.1°                  |                                |                                                                                                                                                                                           |
-| `hydroweb.xml` (Rounded) | [www.hydrodaten.admin.ch/lhg](https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml) | [XML](http://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xsd)  |                    | 0.1°                  | Yes                            | Contains both current values and 24h old ones.                                                                                                                                            |
-| `hydroweb.xml` (Precise) | [www.hydrodata.ch](https://www.hydrodata.ch/data/xml/hydroweb.xml)                     | [XML](http://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd) | Yes                | 0.01°                 | Yes                            |                                                                                                                                                                                           |
-| `hydroweb.naqua.xml`     | [www.hydrodata.ch](https://www.hydrodata.ch/data/xml/hydroweb.naqua.xml)               | [XML](http://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd) | Yes                | 0.01°                 | Yes                            | [NAQUA Groundwater Monitoring](https://www.bafu.admin.ch/bafu/en/home/topics/water/info-specialists/state-of-waterbodies/state-of-groundwater/naqua-national-groundwater-monitoring.html) |
-| `SMS.xml`                | -                                                                                      | XML                                                            |                    | 0.01°                 | Yes                            | No longer available                                                                                                                                                                       |
+| File                                 | URL                                                                                    | Format                                                         | Password protected | Temperature precision | Parseable by `parse-hydrodaten` | Comment                                                                                                                                                                                   |
+| ------------------------------------ | -------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------------------ | --------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Homepage                             | [www.hydrodaten.admin.ch](https://www.hydrodaten.admin.ch)                             | HTML                                                           |                    | 0.1°                  |                                 |                                                                                                                                                                                           |
+| `hydroweb.xml` (Rounded, deprecated) | [www.hydrodaten.admin.ch/lhg](https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xml) | [XML](http://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xsd)  |                    | 0.1°                  | Yes                             | No longer available. Contains both current values and 24h old ones.                                                                                                                |
+| `hydroweb.xml` (Precise)             | [www.hydrodata.ch](https://www.hydrodata.ch/data/xml/hydroweb.xml)                     | [XML](http://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd) | Yes                | 0.01°                 | Yes                             |                                                                                                                                                                                           |
+| `hydroweb.naqua.xml`                 | [www.hydrodata.ch](https://www.hydrodata.ch/data/xml/hydroweb.naqua.xml)               | [XML](http://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd) | Yes                | 0.01°                 | Yes                             | [NAQUA Groundwater Monitoring](https://www.bafu.admin.ch/bafu/en/home/topics/water/info-specialists/state-of-waterbodies/state-of-groundwater/naqua-national-groundwater-monitoring.html) |
+| `SMS.xml`                            | -                                                                                      | XML                                                            |                    | 0.01°                 | Yes                             | No longer available                                                                                                                                                                       |
 
-## Data file: `hydroweb.xml` (Rounded)
+## Data file: `hydroweb.xml` (Rounded, deprecated)
+
+**Deprecated:** No longer available as of june 2021.
 
 Data is available without password, but rounded values (I.e. temperature values to a tenth degree.)
 
@@ -94,7 +96,7 @@ Note that this parser is only interested in the absolute measurement values (Cur
 
 The parser also ignores the `variant` attribute of the parameters.
 
-Both data and metadata is in the same XML. Encoding is UTF-8.
+Both data and metadata is in the same XML. Encoding is UTF-8. Timezone is Europe/Zurich (GMT+2).
 
 ```xml
 <?xml version='1.0' encoding='utf-8'?>
@@ -141,7 +143,7 @@ Note that this parser is only interested in the absolute current measurement val
 
 The parser also ignores the `variant` attribute of the parameters.
 
-Both data and metadata is in the same XML. Encoding is UTF-8.
+Both data and metadata is in the same XML. Encoding is UTF-8. Timezone is Europe/Zurich (GMT+2).
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -214,7 +216,7 @@ Note that the legacy data parser is only interested in the absolute measurement 
 
 The parser also ignores the `Var` attribute of the parameters.
 
-Both data is stored in this XML, no metadata. Encoding is UTF-8.
+Both data is stored in this XML, no metadata. Encoding is UTF-8. Timezone is Europe/Zurich (GMT+2).
 
 ```xml
 <?xml version='1.0' encoding='utf-8'?>
@@ -256,27 +258,27 @@ Values are converted to `float`. Missing values are not returned, the values wil
 
 Parses a Hydrodaten data string, tries out all available parsers one after another. If any of them finds anything, returns that data.
 
-Returns an empty array if no parsers find anything. Use at your own risk.
+Returns an empty row if no parsers find anything. Use at your own risk.
 
-Returns an array of StdClass objects with the keys `timestamp`, `loc`, `par`, `val`.
+Returns a row of value objects with the keys `timestamp`, `loc`, `par`, `val`.
 
 ### `DataParser::parse(string $raw)`
 
 Parses a Hydroweb XML string in the [`hydroweb.xsd`](https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb.xsd) format.
 
-Returns an array of StdClass objects with the keys `timestamp`, `loc`, `par`, `val`.
+Returns a row of value objects with the keys `timestamp`, `loc`, `par`, `val`.
 
 ### `DataParserPrecise::parse(string $raw)`
 
 Parses a Hydroweb XML string in the [`hydroweb2.xsd`](https://www.hydrodaten.admin.ch/lhg/az/xml/hydroweb2.xsd) format.
 
-Returns an array of StdClass objects with the keys `timestamp`, `loc`, `par`, `val`.
+Returns a row of value objects with the keys `timestamp`, `loc`, `par`, `val`.
 
 ### `LegacyDataParser::parse(string $raw)`
 
 Parses a legacy Hydroweb XML string in the deprecated `SMS.xml` format.
 
-Returns an array of StdClass objects with the keys `timestamp`, `loc`, `par`, `val`.
+Returns a row of value objects with the keys `timestamp`, `loc`, `par`, `val`.
 
 ### `MetadataParser::parse(string $raw)`
 

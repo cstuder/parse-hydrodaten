@@ -2,6 +2,8 @@
 
 namespace cstuder\ParseHydrodaten;
 
+use cstuder\ParseValueholder\Row;
+
 /**
  * Super Parser for Hydrodaten data strings
  */
@@ -15,15 +17,15 @@ class SuperParser
      * Fails silently when nothing is found or understood. Use with caution.
      * 
      * @param string $raw Hydrodaten data string
-     * @return array
+     * @return Row Parsed data
      */
-    public static function parse(string $raw): array
+    public static function parse(string $raw): Row
     {
         // Try DataParser
         if (strpos($raw, 'hydroweb.xsd') !== false) {
             $data = DataParser::parse($raw);
 
-            if (!empty($data)) {
+            if (!empty($data->values)) {
                 return $data;
             }
         }
@@ -32,7 +34,7 @@ class SuperParser
         if (strpos($raw, 'hydroweb2.xsd') !== false) {
             $data = DataParserPrecise::parse($raw);
 
-            if (!empty($data)) {
+            if (!empty($data->values)) {
                 return $data;
             }
         }
@@ -40,10 +42,10 @@ class SuperParser
         // Try LegacyDataParser
         $data = LegacyDataParser::parse($raw);
 
-        if (!empty($data)) {
+        if (!empty($data->values)) {
             return $data;
         }
 
-        return [];
+        return new Row();
     }
 }

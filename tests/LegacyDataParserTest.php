@@ -14,12 +14,12 @@ class LegacyDataParserTest extends DataParserTestCase
         $raw = file_get_contents(__DIR__ . '/resources/validLegacyData/SMS.xml');
         $data = \cstuder\ParseHydrodaten\LegacyDataParser::parse($raw);
 
-        $this->assertEquals((504 - 3) * 2, count($data));
+        $this->assertEquals((504 - 3) * 2, count($data->values));
         $this->assertEquals(5, count($this->collectParameters($data)));
         $this->assertEquals(238, count($this->collectLocations($data)));
         $this->assertEquals(34, count($this->collectTimestamps($data)));
 
-        $this->assertContainsOnlyInstancesOf('StdClass', $data);
+        $this->assertContainsOnlyInstancesOf('cstuder\ParseValueholder\Value', $data->values);
     }
 
     public function testParseWert()

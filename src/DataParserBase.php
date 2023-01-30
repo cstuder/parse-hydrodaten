@@ -2,6 +2,9 @@
 
 namespace cstuder\ParseHydrodaten;
 
+use cstuder\ParseValueholder\Row;
+use cstuder\ParseValueholder\Value;
+
 /**
  * Base class for the data parser
  * 
@@ -20,9 +23,15 @@ abstract class DataParserBase
      */
     protected const PARAMETER_ID_ATTRIBUTE = 'type';
 
-    public static function parse(string $raw)
+    /**
+     * Parse data string
+     * 
+     * @param string $raw Raw data string
+     * @return Row Parsed data
+     */
+    public static function parse(string $raw) : Row
     {
-        $data = [];
+        $data = new Row();
         $xml = simplexml_load_string($raw);
 
         // Loop over stations
@@ -45,24 +54,28 @@ abstract class DataParserBase
 
                 // Valid value found
                 if ($value !== null) {
-                    $data[] = (object) ([
-                        'timestamp' => $timestamp,
-                        'loc' => $loc,
-                        'par' => $type,
-                        'val' => $value
-                    ]);
+                    $data->append(
+                        new Value(
+                            $timestamp,
+                            $loc,
+                            $type,
+                            $value
+                        )
+                    );
                 }
 
                 // Old data found as well
                 if ($previousValue !== null) {
                     $previousTimestamp = strtotime($datetime . ' ' . static::TIMEZONE . ' - 1 day');
 
-                    $data[] = (object) ([
-                        'timestamp' => $previousTimestamp,
-                        'loc' => $loc,
-                        'par' => $type,
-                        'val' => $previousValue
-                    ]);
+                    $data->append(
+                        new Value(
+                            $previousTimestamp,
+                            $loc,
+                            $type,
+                            $previousValue
+                        )
+                    );
                 }
             }
         }

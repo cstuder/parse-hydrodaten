@@ -15,13 +15,13 @@ class ValueParser
     /**
      * Parse Wert tag
      * 
-     * Recognizes empty strings and returns NULL.
+     * Recognizes empty strings and returns null.
      * Parses to float otherwise.
      * 
      * @param string $value
      * @return null|float
      */
-    public static function parseValue(?string $value)
+    public static function parseValue(?string $value): ?float
     {
         if ($value === self::NULL_STRING) return null;
 

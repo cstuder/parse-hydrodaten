@@ -2,12 +2,14 @@
 
 namespace cstuder\ParseHydrodaten;
 
+use stdClass;
+
 /**
  * Parser for Hydrodaten meta data strings
  */
 class MetadataParser
 {
-    public static function parse(string $raw)
+    public static function parse(string $raw): stdClass
     {
         $metadata = new \stdClass();
         $metadata->locations = [];
