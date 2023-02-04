@@ -25,7 +25,7 @@ class SuperParser
         if (strpos($raw, 'hydroweb.xsd') !== false) {
             $data = DataParser::parse($raw);
 
-            if (!empty($data->values)) {
+            if (!empty($data->getValues())) {
                 return $data;
             }
         }
@@ -34,7 +34,7 @@ class SuperParser
         if (strpos($raw, 'hydroweb2.xsd') !== false) {
             $data = DataParserPrecise::parse($raw);
 
-            if (!empty($data->values)) {
+            if (!empty($data->getValues())) {
                 return $data;
             }
         }
@@ -42,7 +42,7 @@ class SuperParser
         // Try LegacyDataParser
         $data = LegacyDataParser::parse($raw);
 
-        if (!empty($data->values)) {
+        if (!empty($data->getValues())) {
             return $data;
         }
 

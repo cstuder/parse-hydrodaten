@@ -2,8 +2,6 @@
 
 use PHPUnit\Framework\TestCase;
 
-require_once 'DataParserTestCase.php';
-
 /**
  * Test of value parser
  */

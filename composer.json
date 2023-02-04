@@ -20,7 +20,7 @@
     }
   },
   "require": {
-    "cstuder/parse-valueholder": "^0.1.1"
+    "cstuder/parse-valueholder": "^0.2"
   },
   "require-dev": {
     "phpunit/phpunit": "^9"
